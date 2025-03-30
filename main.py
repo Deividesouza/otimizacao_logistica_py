@@ -5,11 +5,26 @@ from algoritimos import AlocadorEntregas
 def main():
     # 1. Criar centros
     centros = [
-        CentroDistribuicao("Belém", -1.45, -48.49),
-        CentroDistribuicao("Recife", -8.04, -34.87),
-        CentroDistribuicao("Brasília", -15.79, -47.88),
-        CentroDistribuicao("São Paulo", -10.79, 10.25),
-        CentroDistribuicao("Florianopolis", -3.12, -57.52)
+        CentroDistribuicao(
+        nome="Belém",
+        localizacao=(-1.4557, -48.4902)  # Praça da República, Belém
+    ),
+    CentroDistribuicao(
+        nome="Recife",
+        localizacao=(-8.05428, -34.8813)  # Marco Zero, Recife
+    ),
+    CentroDistribuicao(
+        nome="Brasília",
+        localizacao=(-15.7975, -47.8919)  # Praça dos Três Poderes
+    ),
+    CentroDistribuicao(
+        nome="São Paulo",
+        localizacao=(-23.5505, -46.6333)  # Centro Histórico de SP
+    ),
+    CentroDistribuicao(
+        nome="Florianópolis",
+        localizacao=(-27.5969, -48.5495)  # Centro da Cidade
+    )
     ]
     
     # 2. Criar caminhões
@@ -18,16 +33,12 @@ def main():
     
     # 3. Criar entregas
     entregas = [
-        Entrega((-1.44, -48.50), 300, 24),
-        Entrega((-8.05, -34.86), 500, 12),
-        Entrega((-15.80, -47.90), 700, 48),
-        Entrega((-1.46, -48.51), 400, 36)
-    ]
+        Entrega(destino=(-23.5505, -46.6333), peso=300.5,prazo=24)]
     
     # 4. Construir grafo
     grafo = GrafoLogistica()
     for centro in centros:
-        grafo.adicionar_centro(centro)
+            grafo.adicionar_centro(centro)
     grafo.construir_grafo(entregas)
     
     # 5. Associar entregas aos centros

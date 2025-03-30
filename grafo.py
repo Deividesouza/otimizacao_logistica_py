@@ -15,7 +15,7 @@ class GrafoLogistica:
     
     def centro_mais_proximo(self, destino):
         return min(self.centros, 
-                 key=lambda c: self.calcular_distancia(c.localizacao, destino))
+                key=lambda c: self.calcular_distancia(c.localizacao, destino))
     
     def construir_grafo(self, entregas):
         for centro in self.centros:
