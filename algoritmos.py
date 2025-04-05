@@ -23,3 +23,4 @@ class AlocadorEntregas:
                     caminhao.carga_atual = carga_atual
 
         return caminhoes
+    

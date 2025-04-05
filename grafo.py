@@ -20,3 +20,4 @@ class GrafoLogistica:
             for entrega in entregas:
                 distancia = self.calcular_distancia(centro.localizacao, entrega.destino) # Calcula a distância entre o centro e a entrega
                 self.distancias[centro.id][id(entrega)] = distancia  # Usando ID único
+                
