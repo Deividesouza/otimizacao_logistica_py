@@ -12,7 +12,7 @@ class CentroDistribuicao:
     def __hash__(self):
         return hash(self.id)
 
-@dataclass(frozen=True)  # Classe congelada para ser hashable
+@dataclass
 class Entrega:
     destino: Tuple[float, float]
     peso: float
@@ -21,6 +21,7 @@ class Entrega:
 @dataclass
 class Caminhao:
     id: int
+    
     capacidade_max: float
     carga_atual: float = 0.0
     rota: List[Tuple[float, float]] = field(default_factory=list)
