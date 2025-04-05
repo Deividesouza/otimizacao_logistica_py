@@ -10,4 +10,3 @@ def retornar_endereco(lat: float, lon:float):
     except requests.exceptions.RequestException as e:
         print(f'Erro: {e}')
         return None
-    

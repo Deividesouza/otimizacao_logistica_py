@@ -37,7 +37,7 @@ def main():
     caminhao_id = 1
     for centro in centros:
         centro.caminhoes = [
-            Caminhao(id=caminhao_id + i, capacidade_max=2000.0)
+            Caminhao(id=caminhao_id + i, capacidade_max=4000.0)
             for i in range(2)
         ]
         caminhao_id += 2
@@ -47,12 +47,6 @@ def main():
     Entrega(destino=(-15.163366003799249, -48.288148331074936), peso=1000.0, prazo=36),
     Entrega(destino=(-15.5417414, -47.3384334), peso=1200.0, prazo=60),
     Entrega(destino=(-15.5417414, -47.3384334), peso=1200.0, prazo=80),
-    Entrega(destino=(-15.5417414, -47.3384334), peso=1200.0, prazo=24),
-    Entrega(destino=(-15.5417414, -47.3384334), peso=1200.0, prazo=90),
-    Entrega(destino=(-15.5417414, -47.3384334), peso=1200.0, prazo=90),
-    Entrega(destino=(-15.5417414, -47.3384334), peso=1200.0, prazo=24),
-    Entrega(destino=(-15.5417414, -47.3384334), peso=1200.0, prazo=24),
-    Entrega(destino=(-15.5417414, -47.3384334), peso=1200.0, prazo=90),
     Entrega(destino=(-15.5417414, -47.3384334), peso=1200.0, prazo=24),
     Entrega(destino=(-16.767394363667858, -47.613630775677635), peso=350.5, prazo=12)
     ]
