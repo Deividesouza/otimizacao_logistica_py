@@ -1,31 +1,24 @@
-from dataclasses import dataclass, field
 from typing import Tuple, List
 
-@dataclass
 class CentroDistribuicao:
-    id: int
-    nome: str
-    localizacao: Tuple[float, float]
-    entregas: List['Entrega'] = field(default_factory=list)
-    caminhoes: List['Caminhao'] = field(default_factory=list)
+    def __init__(self, id: int, nome: str, localizacao: Tuple[float, float]):
+        self.id = id
+        self.nome = nome
+        self.localizacao = localizacao
+        self.entregas: List['Entrega'] = []
+        self.caminhoes: List['Caminhao'] = []
 
-    def __hash__(self):
-        return hash(self.id)
-
-@dataclass
 class Entrega:
-    destino: Tuple[float, float]
-    peso: float
-    prazo: int
+    def __init__(self, id: int, destino_localizacao: Tuple[float, float], destino_nome: str, peso: float, prazo: int):
+        self.id = id
+        self.destino_localizacao = destino_localizacao
+        self.destino_nome = destino_nome
+        self.peso = peso
+        self.prazo = prazo  # Em dias
 
-@dataclass
 class Caminhao:
-    id: int
-    
-    capacidade_max: float
-    carga_atual: float = 0.0
-    rota: List[Tuple[float, float]] = field(default_factory=list)
-
-    @property
-    def capacidade_restante(self) -> float:
-        return self.capacidade_max - self.carga_atual
+    def __init__(self, id: int, capacidade_max: float):
+        self.id = id
+        self.capacidade_max = capacidade_max
+        self.rota: List[Tuple[float, float]] = []
+        self.entregas = []
