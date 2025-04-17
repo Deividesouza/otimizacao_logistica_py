@@ -1,6 +1,7 @@
 from typing import List, Tuple, Dict
 from models import CentroDistribuicao, Entrega, Caminhao
 from grafo import calcular_distancia, dijkstra, encontrar_nome_local
+import csv
 
 def encontrar_centro_mais_proximo(centros: List[CentroDistribuicao], entrega: Entrega) -> CentroDistribuicao:
     """Encontra o centro de distribuição mais próximo para uma entrega"""
@@ -247,24 +248,33 @@ def desenhar_mapa(centros, entregas, mostrar_rotas=True):
     
     # Criar uma legenda para os caminhões
     def desenhar_legenda():
-        # Retângulo de fundo para a legenda
-        pygame.draw.rect(screen, (240, 240, 240), (screen_width - 220, 20, 200, 100), 0)
-        pygame.draw.rect(screen, preto, (screen_width - 220, 20, 200, 100), 1)
-        
+        # Configurações da legenda
+        largura_legenda = 200
+        altura_legenda = 100
+        margem = 20  # Margem das bordas da tela
+
+        #Posição no canto inferior esquerdo
+        pos_x = margem
+        pos_y = screen_height - altura_legenda - margem
+
+        #Retângulo de fundo para a legenda
+        pygame.draw.rect(screen, (240, 240, 240), (pos_x, pos_y, largura_legenda, altura_legenda), 0)
+        pygame.draw.rect(screen, preto, (pos_x, pos_y, largura_legenda, altura_legenda), 1)
+
         # Título da legenda
         titulo = font.render("Legenda", True, preto)
-        screen.blit(titulo, (screen_width - 210, 30))
-        
+        screen.blit(titulo, (pos_x + 10, pos_y + 10))
+
         # Linha para caminhões ímpares
-        pygame.draw.line(screen, azul_rota, (screen_width - 210, 55), (screen_width - 170, 55), 3)
+        pygame.draw.line(screen, azul_rota, (pos_x + 10, pos_y + 35), (pos_x + 50, pos_y + 35), 3)
         texto_impar = font.render("Caminhão ID ímpar", True, preto)
-        screen.blit(texto_impar, (screen_width - 160, 50))
-        
+        screen.blit(texto_impar, (pos_x + 60, pos_y + 30))
+
         # Linha para caminhões pares
-        pygame.draw.line(screen, verde_rota, (screen_width - 210, 80), (screen_width - 170, 80), 3)
+        pygame.draw.line(screen, verde_rota, (pos_x + 10, pos_y + 60), (pos_x + 50, pos_y + 60), 3)
         texto_par = font.render("Caminhão ID par", True, preto)
-        screen.blit(texto_par, (screen_width - 160, 75))
-    
+        screen.blit(texto_par, (pos_x + 60, pos_y + 55))
+        
     rodando = True
     while rodando:
         for event in pygame.event.get():
@@ -316,3 +326,58 @@ def desenhar_mapa(centros, entregas, mostrar_rotas=True):
         clock.tick(30)
 
     pygame.quit()
+
+def carregar_entregas_csv(caminho_arquivo: str) -> List[Entrega]:
+    """
+    Carrega dados de entregas a partir de um arquivo CSV.
+    
+    O arquivo CSV deve ter o seguinte formato:
+    id,latitude,longitude,destino_nome,peso,prazo
+    
+    Args:
+        caminho_arquivo: Caminho para o arquivo CSV
+        
+    Returns:
+        Lista de objetos Entrega
+    """
+    entregas = []
+    
+    try:
+        with open(caminho_arquivo, 'r', encoding='utf-8') as arquivo:
+            leitor_csv = csv.DictReader(arquivo)
+            
+            for linha in leitor_csv:
+                # Converter valores para os tipos corretos
+                id_entrega = int(linha['id'])
+                latitude = float(linha['latitude'])
+                longitude = float(linha['longitude'])
+                destino_nome = linha['destino_nome']
+                peso = float(linha['peso'])
+                prazo = int(linha['prazo'])
+                
+                # Criar objeto Entrega
+                entrega = Entrega(
+                    id=id_entrega,
+                    destino_localizacao=(latitude, longitude),
+                    destino_nome=destino_nome,
+                    peso=peso,
+                    prazo=prazo
+                )
+                
+                entregas.append(entrega)
+                
+        print(f"Carregadas {len(entregas)} entregas do arquivo {caminho_arquivo}")
+        return entregas
+    
+    except FileNotFoundError:
+        print(f"Erro: Arquivo {caminho_arquivo} não encontrado.")
+        return []
+    except KeyError as e:
+        print(f"Erro: Coluna obrigatória ausente no CSV: {e}")
+        return []
+    except ValueError as e:
+        print(f"Erro: Problema ao converter valor no CSV: {e}")
+        return []
+    except Exception as e:
+        print(f"Erro inesperado ao carregar o arquivo CSV: {e}")
+        return []
