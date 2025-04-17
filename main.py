@@ -86,10 +86,10 @@ def criar_dados_teste():
     # 3. Criar caminhões para cada centro com velocidades e limites diferentes
     for i, centro in enumerate(centros):
         # Caminhão 1: mais rápido, mas com menos horas disponíveis
-        caminhao1 = Caminhao(i*2+1, 15000.0, velocidade_media=10.0, limite_de_horas=6.0)
+        caminhao1 = Caminhao(i*2+1, 15000.0, velocidade_media=80.0, limite_de_horas=24.0)
         
         # Caminhão 2: mais lento, mas com mais horas disponíveis
-        caminhao2 = Caminhao(i*2+2, 10000.0, velocidade_media=10.0, limite_de_horas=10.0)
+        caminhao2 = Caminhao(i*2+2, 10000.0, velocidade_media=100.0, limite_de_horas=24.0)
         
         centro.caminhoes = [caminhao1, caminhao2]
     

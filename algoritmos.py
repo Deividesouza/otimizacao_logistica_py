@@ -23,13 +23,26 @@ def atribuir_entregas_aos_centros(centros: List[CentroDistribuicao], entregas: L
         print(f"Entrega {entrega.id} para {entrega.destino_nome} atribuída ao centro {centro.nome}")
 
 def estimar_tempo_rota(rota: List[Tuple[float, float]], velocidade_media: float) -> float:
-    """Estima o tempo total necessário para percorrer uma rota em horas"""
+    """
+    Estima o tempo total necessário para percorrer uma rota em horas.
+    A distância é calculada em km e a velocidade em km/h.
+    
+    Args:
+        rota: Lista de pontos (latitude, longitude)
+        velocidade_media: Velocidade média do caminhão em km/h
+        
+    Returns:
+        Tempo estimado em horas
+    """
     if len(rota) <= 1:
         return 0.0
     
+    # Calcula a distância total em km
     distancia_total = sum(calcular_distancia(rota[i], rota[i+1]) for i in range(len(rota)-1))
-    # Considerando que a distância é em km
-    tempo_estimado = distancia_total / velocidade_media  # em horas
+    
+    # Tempo = distância / velocidade (em horas)
+    tempo_estimado = distancia_total / velocidade_media
+    
     return tempo_estimado
 
 def calcular_rota_entrega(grafo: Dict, origem: Tuple[float, float], destino: Tuple[float, float], 
@@ -133,7 +146,7 @@ def calcular_rota_caminhao(grafo: Dict, caminhao: Caminhao, centro: CentroDistri
             nome_atual = encontrar_nome_local(ponto_atual, centros, todas_entregas)
             nome_proximo = encontrar_nome_local(proximo_ponto, centros, todas_entregas)
             
-            print(f"  {nome_atual} → {nome_proximo} ({distancia_trecho:.2f} unidades)")
+            print(f"  {nome_atual} → {nome_proximo} ({distancia_trecho:.2f} km)")
             
             # Adiciona ponto à rota
             if i > 0:  # O primeiro ponto já está na rota
@@ -159,7 +172,7 @@ def calcular_rota_caminhao(grafo: Dict, caminhao: Caminhao, centro: CentroDistri
         nome_atual = encontrar_nome_local(ponto_atual, centros, todas_entregas)
         nome_proximo = encontrar_nome_local(proximo_ponto, centros, todas_entregas)
         
-        print(f"  {nome_atual} → {nome_proximo} ({distancia_trecho:.2f} unidades)")
+        print(f"  {nome_atual} → {nome_proximo} ({distancia_trecho:.2f} km)")
         
         # Adiciona ponto à rota (exceto o primeiro que já está)
         if i > 0:
@@ -172,7 +185,7 @@ def calcular_rota_caminhao(grafo: Dict, caminhao: Caminhao, centro: CentroDistri
     tempo_estimado = estimar_tempo_rota(rota, caminhao.velocidade_media)
     dias_necessarios = tempo_estimado / caminhao.limite_de_horas
     
-    print(f"\nDistância total percorrida: {distancia_total:.2f} unidades")
+    print(f"\nDistância total percorrida: {distancia_total:.2f} km")
     print(f"Tempo estimado: {tempo_estimado:.2f} horas")
     print(f"Dias necessários: {dias_necessarios:.2f} dias (considerando {caminhao.limite_de_horas} horas/dia)")
     print(f"Total de entregas realizadas: {len(caminhao.entregas)}")
@@ -189,7 +202,7 @@ def desenhar_mapa(centros, entregas, mostrar_rotas=True):
     # Aumenta a largura e altura da janela
     screen_width, screen_height = 1400, 900
     screen = pygame.display.set_mode((screen_width, screen_height))
-    pygame.display.set_caption("Mapa Logístico - Centros e Entregas")
+    pygame.display.set_caption("Mapa Logístico - Centros e Entregas (Distâncias em km)")
 
     font = pygame.font.SysFont("Arial", 16)
     clock = pygame.time.Clock()
@@ -220,6 +233,10 @@ def desenhar_mapa(centros, entregas, mostrar_rotas=True):
         y = int(((max_lat + padding_lat - lat) / lat_range) * screen_height)
         return x, y
 
+    # Adiciona algumas informações sobre a escala
+    centro_coords = transformar_coords((min_lat + max_lat) / 2, (min_lon + max_lon) / 2)
+    escala_100km_pixels = int(100 / (calcular_distancia((min_lat, min_lon), (min_lat, min_lon + 1)) * lon_range / screen_width))
+    
     rodando = True
     while rodando:
         for event in pygame.event.get():
@@ -232,7 +249,7 @@ def desenhar_mapa(centros, entregas, mostrar_rotas=True):
         if mostrar_rotas:
             for centro in centros:
                 for caminhao in centro.caminhoes:
-                    if caminhao.rota:
+                    if hasattr(caminhao, 'rota') and caminhao.rota:
                         pontos = [transformar_coords(lat, lon) for lat, lon in caminhao.rota]
                         if len(pontos) > 1:
                             pygame.draw.lines(screen, cinza, False, pontos, 2)
@@ -256,6 +273,11 @@ def desenhar_mapa(centros, entregas, mostrar_rotas=True):
 
             text_rect = text.get_rect(center=(x, y - 12))  # Nome centralizado acima
             screen.blit(text, text_rect)
+
+        # Desenhar escala
+        pygame.draw.line(screen, preto, (50, screen_height - 50), (50 + escala_100km_pixels, screen_height - 50), 2)
+        escala_text = font.render("100 km", True, preto)
+        screen.blit(escala_text, (50, screen_height - 70))
 
         pygame.display.flip()
         clock.tick(30)

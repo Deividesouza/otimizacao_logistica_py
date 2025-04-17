@@ -4,8 +4,36 @@ import heapq
 from models import CentroDistribuicao, Entrega
 
 def calcular_distancia(ponto1: Tuple[float, float], ponto2: Tuple[float, float]) -> float:
-    """Calcula a distância euclidiana entre dois pontos"""
-    return math.sqrt((ponto1[0] - ponto2[0])**2 + (ponto1[1] - ponto2[1])**2)
+    """
+    Calcula a distância entre dois pontos de latitude/longitude em quilômetros
+    usando a fórmula de Haversine.
+    
+    Args:
+        ponto1: Tupla (latitude, longitude) do primeiro ponto
+        ponto2: Tupla (latitude, longitude) do segundo ponto
+        
+    Returns:
+        Distância em quilômetros
+    """
+    # Raio da Terra em quilômetros
+    R = 6371.0
+    
+    # Converter de graus para radianos
+    lat1 = math.radians(ponto1[0])
+    lon1 = math.radians(ponto1[1])
+    lat2 = math.radians(ponto2[0])
+    lon2 = math.radians(ponto2[1])
+    
+    # Diferença de longitude e latitude
+    dlon = lon2 - lon1
+    dlat = lat2 - lat1
+    
+    # Fórmula de Haversine
+    a = math.sin(dlat / 2)**2 + math.cos(lat1) * math.cos(lat2) * math.sin(dlon / 2)**2
+    c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+    distancia = R * c
+    
+    return distancia
 
 def construir_grafo(centros: List[CentroDistribuicao], entregas: List[Entrega]) -> Dict:
     """Constrói um grafo simples onde cada nó é conectado com todos os outros"""
