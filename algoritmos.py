@@ -210,10 +210,13 @@ def desenhar_mapa(centros, entregas, mostrar_rotas=True):
     # Cores
     branco = (255, 255, 255)
     preto = (0, 0, 0)
-    azul = (70, 130, 180)
-    vermelho = (220, 20, 60)
-    verde = (34, 139, 34)
-    cinza = (169, 169, 169)
+    azul = (70, 130, 180)  # Azul para centros de distribuição e caminhões ímpares
+    verde = (34, 139, 34)  # Verde para caminhões pares
+    vermelho = (220, 20, 60)  # Vermelho para entregas
+    
+    # Tons mais claros para as rotas
+    azul_rota = (100, 149, 237)  # Azul mais claro para rotas de caminhões ímpares
+    verde_rota = (60, 179, 113)  # Verde mais claro para rotas de caminhões pares
 
     # Coleta das latitudes e longitudes
     latitudes = [loc.localizacao[0] for loc in centros] + [ent.destino_localizacao[0] for ent in entregas]
@@ -235,7 +238,32 @@ def desenhar_mapa(centros, entregas, mostrar_rotas=True):
 
     # Adiciona algumas informações sobre a escala
     centro_coords = transformar_coords((min_lat + max_lat) / 2, (min_lon + max_lon) / 2)
-    escala_100km_pixels = int(100 / (calcular_distancia((min_lat, min_lon), (min_lat, min_lon + 1)) * lon_range / screen_width))
+    
+    # Tenta calcular uma escala aproximada
+    try:
+        escala_100km_pixels = int(100 / (calcular_distancia((min_lat, min_lon), (min_lat, min_lon + 1)) * lon_range / screen_width))
+    except:
+        escala_100km_pixels = 100  # Valor padrão se o cálculo falhar
+    
+    # Criar uma legenda para os caminhões
+    def desenhar_legenda():
+        # Retângulo de fundo para a legenda
+        pygame.draw.rect(screen, (240, 240, 240), (screen_width - 220, 20, 200, 100), 0)
+        pygame.draw.rect(screen, preto, (screen_width - 220, 20, 200, 100), 1)
+        
+        # Título da legenda
+        titulo = font.render("Legenda", True, preto)
+        screen.blit(titulo, (screen_width - 210, 30))
+        
+        # Linha para caminhões ímpares
+        pygame.draw.line(screen, azul_rota, (screen_width - 210, 55), (screen_width - 170, 55), 3)
+        texto_impar = font.render("Caminhão ID ímpar", True, preto)
+        screen.blit(texto_impar, (screen_width - 160, 50))
+        
+        # Linha para caminhões pares
+        pygame.draw.line(screen, verde_rota, (screen_width - 210, 80), (screen_width - 170, 80), 3)
+        texto_par = font.render("Caminhão ID par", True, preto)
+        screen.blit(texto_par, (screen_width - 160, 75))
     
     rodando = True
     while rodando:
@@ -252,7 +280,9 @@ def desenhar_mapa(centros, entregas, mostrar_rotas=True):
                     if hasattr(caminhao, 'rota') and caminhao.rota:
                         pontos = [transformar_coords(lat, lon) for lat, lon in caminhao.rota]
                         if len(pontos) > 1:
-                            pygame.draw.lines(screen, cinza, False, pontos, 2)
+                            # Determina cor da rota baseada no ID do caminhão
+                            cor_rota = azul_rota if caminhao.id % 2 != 0 else verde_rota
+                            pygame.draw.lines(screen, cor_rota, False, pontos, 3)  # Aumentei a espessura para 3
 
         # Desenhar centros
         for centro in centros:
@@ -278,6 +308,9 @@ def desenhar_mapa(centros, entregas, mostrar_rotas=True):
         pygame.draw.line(screen, preto, (50, screen_height - 50), (50 + escala_100km_pixels, screen_height - 50), 2)
         escala_text = font.render("100 km", True, preto)
         screen.blit(escala_text, (50, screen_height - 70))
+        
+        # Desenhar legenda
+        desenhar_legenda()
 
         pygame.display.flip()
         clock.tick(30)
