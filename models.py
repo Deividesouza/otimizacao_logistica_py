@@ -17,8 +17,10 @@ class Entrega:
         self.prazo = prazo  # Em dias
 
 class Caminhao:
-    def __init__(self, id: int, capacidade_max: float):
+    def __init__(self, id: int, capacidade_max: float, velocidade_media: float = 60.0, limite_de_horas: float = 8.0):
         self.id = id
         self.capacidade_max = capacidade_max
+        self.velocidade_media = velocidade_media  # km/h
+        self.limite_de_horas = limite_de_horas    # horas por dia
         self.rota: List[Tuple[float, float]] = []
         self.entregas = []

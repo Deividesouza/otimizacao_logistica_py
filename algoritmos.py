@@ -22,8 +22,44 @@ def atribuir_entregas_aos_centros(centros: List[CentroDistribuicao], entregas: L
         centro.entregas.append(entrega)
         print(f"Entrega {entrega.id} para {entrega.destino_nome} atribuída ao centro {centro.nome}")
 
-def atribuir_entregas_aos_caminhoes(centros: List[CentroDistribuicao]) -> None:
-    """Atribui entregas aos caminhões considerando capacidade"""
+def estimar_tempo_rota(rota: List[Tuple[float, float]], velocidade_media: float) -> float:
+    """Estima o tempo total necessário para percorrer uma rota em horas"""
+    if len(rota) <= 1:
+        return 0.0
+    
+    distancia_total = sum(calcular_distancia(rota[i], rota[i+1]) for i in range(len(rota)-1))
+    # Considerando que a distância é em km
+    tempo_estimado = distancia_total / velocidade_media  # em horas
+    return tempo_estimado
+
+def calcular_rota_entrega(grafo: Dict, origem: Tuple[float, float], destino: Tuple[float, float], 
+                          centros: List[CentroDistribuicao], todas_entregas: List[Entrega]) -> List[Tuple[float, float]]:
+    """Calcula a rota entre origem e destino e retorna o caminho"""
+    return dijkstra(grafo, origem, destino)
+
+def verificar_viabilidade_entrega(caminhao: Caminhao, entrega: Entrega, centro: CentroDistribuicao, 
+                                 grafo: Dict, centros: List[CentroDistribuicao], todas_entregas: List[Entrega]) -> bool:
+    """Verifica se é possível realizar a entrega dentro do prazo e limite de horas do caminhão"""
+    # Simula a rota com esta entrega
+    origem = centro.localizacao
+    destino = entrega.destino_localizacao
+    
+    # Calcula a rota de ida e volta
+    rota_ida = calcular_rota_entrega(grafo, origem, destino, centros, todas_entregas)
+    rota_volta = calcular_rota_entrega(grafo, destino, origem, centros, todas_entregas)
+    rota_completa = rota_ida + rota_volta[1:]  # Evita duplicar o ponto de destino
+    
+    # Estima o tempo necessário
+    tempo_estimado = estimar_tempo_rota(rota_completa, caminhao.velocidade_media)
+    
+    # Calcula quantos dias serão necessários baseado no limite de horas por dia
+    dias_necessarios = tempo_estimado / caminhao.limite_de_horas
+    if dias_necessarios > entrega.prazo:
+        return False
+    return True
+
+def atribuir_entregas_aos_caminhoes(centros: List[CentroDistribuicao], grafo: Dict, todas_entregas: List[Entrega]) -> None:
+    """Atribui entregas aos caminhões considerando capacidade, prazo e limite de horas"""
     for centro in centros:
         # Ordena entregas por prazo (mais urgentes primeiro)
         centro.entregas.sort(key=lambda e: e.prazo)
@@ -34,11 +70,18 @@ def atribuir_entregas_aos_caminhoes(centros: List[CentroDistribuicao]) -> None:
             
             # Atribui entregas até encher o caminhão
             for entrega in centro.entregas[:]:
-                if entrega.peso <= capacidade_restante:
+                if (entrega.peso <= capacidade_restante and 
+                    verificar_viabilidade_entrega(caminhao, entrega, centro, grafo, centros, todas_entregas)):
+                    
                     caminhao.entregas.append(entrega)
                     capacidade_restante -= entrega.peso
                     centro.entregas.remove(entrega)
                     print(f"Entrega {entrega.id} atribuída ao caminhão {caminhao.id} do centro {centro.nome}")
+                else:
+                    if entrega.peso > capacidade_restante:
+                        print(f"Entrega {entrega.id} excede capacidade do caminhão {caminhao.id}")
+                    else:
+                        print(f"Entrega {entrega.id} não pode ser entregue a tempo pelo caminhão {caminhao.id}")
         
         # Verifica se sobraram entregas não atribuídas
         if centro.entregas:
@@ -50,6 +93,7 @@ def calcular_rota_caminhao(grafo: Dict, caminhao: Caminhao, centro: CentroDistri
         return []
     
     print(f"\n=== DETALHAMENTO DA ROTA PARA O CAMINHÃO {caminhao.id} DO CENTRO {centro.nome} ===")
+    print(f"Velocidade média: {caminhao.velocidade_media} km/h, Limite de horas por dia: {caminhao.limite_de_horas} horas")
     
     # Começa no centro de distribuição
     posicao_atual = centro.localizacao
@@ -124,7 +168,13 @@ def calcular_rota_caminhao(grafo: Dict, caminhao: Caminhao, centro: CentroDistri
     # Adiciona o último ponto (centro de distribuição)
     rota.append(centro.localizacao)
     
+    # Calcula e exibe o tempo estimado
+    tempo_estimado = estimar_tempo_rota(rota, caminhao.velocidade_media)
+    dias_necessarios = tempo_estimado / caminhao.limite_de_horas
+    
     print(f"\nDistância total percorrida: {distancia_total:.2f} unidades")
+    print(f"Tempo estimado: {tempo_estimado:.2f} horas")
+    print(f"Dias necessários: {dias_necessarios:.2f} dias (considerando {caminhao.limite_de_horas} horas/dia)")
     print(f"Total de entregas realizadas: {len(caminhao.entregas)}")
     print("=" * 70)
     
