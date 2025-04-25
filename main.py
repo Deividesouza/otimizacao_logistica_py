@@ -7,6 +7,8 @@ from algoritmos import (
     desenhar_mapa,
     carregar_entregas_csv
 )
+import datetime
+from memory_profiler import profile
 
 def criar_dados_teste():
     """Criar dados para testar o sistema"""
@@ -41,13 +43,17 @@ def criar_dados_teste():
         caminhao1 = Caminhao(i*2+1, 2000.0, velocidade_media=80.0, limite_de_horas=8.0)
         
         # Caminhão 2: mais lento, mas com mais horas disponíveis
-        caminhao2 = Caminhao(i*2+2, 10000.0, velocidade_media=60.0, limite_de_horas=6.0)
-        
-        centro.caminhoes = [caminhao1, caminhao2]
+        caminhao2 = Caminhao(i*2+2, 100000.0, velocidade_media=60.0, limite_de_horas=24.0)
+
+        caminhao3 = Caminhao(i*2+3, 6000.0, velocidade_media=100.0, limite_de_horas=24.0)
+
+        centro.caminhoes = [caminhao1, caminhao2, caminhao3]
     
     return centros, entregas
 
+@profile
 def resolver_problema():
+    inicio = datetime.datetime.now()
     """Função principal que resolve o problema de distribuição"""
     print("Iniciando solução do problema de distribuição...")
     
@@ -74,6 +80,10 @@ def resolver_problema():
                 caminhao.rota = calcular_rota_caminhao(grafo, caminhao, centro, centros, entregas)
 
     print("\nOtimização de rotas concluída!")
+    fim = datetime.datetime.now()
+    diferenca = fim - inicio
+
+    print(f"Tempo de execução: {diferenca.total_seconds()} segundos")
 
     # 8. Mostrar visualização com pygame
     print("\nExibindo visualização gráfica...")
