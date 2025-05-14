@@ -1,0 +1,421 @@
+/////////// Atribuição de entregas aos centros ////////////
+
+Entrega 1 para Manaus atribuída ao centro Belém    
+Entrega 11 para NovoAirão atribuída ao centro Belém
+Entrega 12 para Itacoatiara atribuída ao centro Belém
+Entrega 13 para Manacapuru atribuída ao centro Belém
+Entrega 14 para PresidenteFigueiredo atribuída ao centro Belém
+Entrega 2 para BeloHorizonte atribuída ao centro São Paulo
+Entrega 15 para Ipatinga atribuída ao centro São Paulo
+Entrega 16 para JuizdeFora atribuída ao centro São Paulo
+Entrega 17 para OuroPreto atribuída ao centro São Paulo
+Entrega 5 para RiodeJaneiro atribuída ao centro São Paulo
+Entrega 18 para Teresópolis atribuída ao centro São Paulo
+Entrega 19 para Petrópolis atribuída ao centro São Paulo
+Entrega 20 para AngradosReis atribuída ao centro São Paulo
+Entrega 21 para VoltaRedonda atribuída ao centro São Paulo
+Entrega 3 para PortoAlegre atribuída ao centro Florianópolis
+Entrega 22 para Canoas atribuída ao centro Florianópolis
+Entrega 23 para RioGrande atribuída ao centro Florianópolis
+Entrega 24 para CaxiasdoSul atribuída ao centro Florianópolis
+Entrega 8 para Curitiba atribuída ao centro Florianópolis
+Entrega 25 para PontaGrossa atribuída ao centro Florianópolis
+Entrega 26 para SãoPaulo atribuída ao centro São Paulo
+Entrega 27 para Santos atribuída ao centro São Paulo
+Entrega 28 para Campinas atribuída ao centro São Paulo
+Entrega 4 para Salvador atribuída ao centro Recife
+Entrega 29 para Candeias atribuída ao centro Recife
+Entrega 30 para LaurodeFreitas atribuída ao centro Recife
+Entrega 7 para Maceió atribuída ao centro Recife
+Entrega 31 para MarechalDeodoro atribuída ao centro Recife
+Entrega 32 para Aracaju atribuída ao centro Recife
+Entrega 9 para Fortaleza atribuída ao centro Recife
+Entrega 33 para Caucaia atribuída ao centro Recife
+Entrega 34 para Pacatuba atribuída ao centro Recife
+Entrega 10 para JoãoPessoa atribuída ao centro Recife
+Entrega 35 para Recife atribuída ao centro Recife
+Entrega 36 para Olinda atribuída ao centro Recife
+Entrega 37 para Natal atribuída ao centro Recife
+Entrega 6 para Goiânia atribuída ao centro Brasília
+Entrega 38 para AparecidadeGoiânia atribuída ao centro Brasília
+Entrega 39 para Cuiabá atribuída ao centro Brasília
+Entrega 40 para CampoGrande atribuída ao centro Brasília
+Entrega 41 para Uberlândia atribuída ao centro Brasília
+Entrega 42 para FeiradeSantana atribuída ao centro Recife
+Entrega 43 para Belém atribuída ao centro Belém
+Entrega 44 para SãoLuís atribuída ao centro Belém
+Entrega 45 para Teresina atribuída ao centro Belém
+Entrega 46 para JuazeirodoNorte atribuída ao centro Recife
+Entrega 47 para PortoVelho atribuída ao centro Belém
+Entrega 48 para Aracaju atribuída ao centro Recife
+Entrega 49 para Florianópolis atribuída ao centro Florianópolis
+Entrega 50 para Dourados atribuída ao centro São Paulo
+
+////////////////// Atribuição das entregas para os caminhões //////////////////////
+
+Entrega 14 atribuída ao caminhão 1 do centro Belém
+Entrega 12 atribuída ao caminhão 1 do centro Belém
+Entrega 45 excede capacidade do caminhão 1
+Entrega 1 excede capacidade do caminhão 1
+Entrega 13 excede capacidade do caminhão 1
+Entrega 44 excede capacidade do caminhão 1
+Entrega 11 excede capacidade do caminhão 1
+Entrega 43 excede capacidade do caminhão 1
+Entrega 47 excede capacidade do caminhão 1
+Entrega 45 atribuída ao caminhão 2 do centro Belém
+Entrega 1 atribuída ao caminhão 2 do centro Belém
+Entrega 13 atribuída ao caminhão 2 do centro Belém
+Entrega 44 atribuída ao caminhão 2 do centro Belém
+Entrega 11 atribuída ao caminhão 2 do centro Belém
+Entrega 43 atribuída ao caminhão 2 do centro Belém
+Entrega 47 atribuída ao caminhão 2 do centro Belém
+Entrega 42 atribuída ao caminhão 3 do centro Recife
+Entrega 30 atribuída ao caminhão 3 do centro Recife
+Entrega 4 excede capacidade do caminhão 3
+Entrega 46 excede capacidade do caminhão 3
+Entrega 29 excede capacidade do caminhão 3
+Entrega 32 excede capacidade do caminhão 3
+Entrega 36 atribuída ao caminhão 3 do centro Recife
+Entrega 48 excede capacidade do caminhão 3
+Entrega 7 excede capacidade do caminhão 3
+Entrega 35 excede capacidade do caminhão 3
+Entrega 37 excede capacidade do caminhão 3
+Entrega 31 excede capacidade do caminhão 3
+Entrega 10 excede capacidade do caminhão 3
+Entrega 34 excede capacidade do caminhão 3
+Entrega 33 excede capacidade do caminhão 3
+Entrega 9 excede capacidade do caminhão 3
+Entrega 4 atribuída ao caminhão 4 do centro Recife
+Entrega 46 atribuída ao caminhão 4 do centro Recife
+Entrega 29 atribuída ao caminhão 4 do centro Recife
+Entrega 32 atribuída ao caminhão 4 do centro Recife
+Entrega 48 atribuída ao caminhão 4 do centro Recife
+Entrega 7 atribuída ao caminhão 4 do centro Recife
+Entrega 35 atribuída ao caminhão 4 do centro Recife
+Entrega 37 atribuída ao caminhão 4 do centro Recife
+Entrega 31 atribuída ao caminhão 4 do centro Recife
+Entrega 10 atribuída ao caminhão 4 do centro Recife
+Entrega 34 atribuída ao caminhão 4 do centro Recife
+Entrega 33 atribuída ao caminhão 4 do centro Recife
+Entrega 9 atribuída ao caminhão 4 do centro Recife
+Entrega 6 atribuída ao caminhão 5 do centro Brasília
+Entrega 38 atribuída ao caminhão 5 do centro Brasília
+Entrega 41 excede capacidade do caminhão 5
+Entrega 40 excede capacidade do caminhão 5
+Entrega 39 excede capacidade do caminhão 5
+Entrega 41 atribuída ao caminhão 6 do centro Brasília
+Entrega 40 atribuída ao caminhão 6 do centro Brasília
+Entrega 39 atribuída ao caminhão 6 do centro Brasília
+Entrega 16 atribuída ao caminhão 7 do centro São Paulo
+Entrega 5 excede capacidade do caminhão 7
+Entrega 26 excede capacidade do caminhão 7
+Entrega 2 atribuída ao caminhão 7 do centro São Paulo
+Entrega 21 excede capacidade do caminhão 7
+Entrega 28 excede capacidade do caminhão 7
+Entrega 17 excede capacidade do caminhão 7
+Entrega 19 excede capacidade do caminhão 7
+Entrega 15 excede capacidade do caminhão 7
+Entrega 18 excede capacidade do caminhão 7
+Entrega 20 excede capacidade do caminhão 7
+Entrega 27 excede capacidade do caminhão 7
+Entrega 50 excede capacidade do caminhão 7
+Entrega 5 atribuída ao caminhão 8 do centro São Paulo
+Entrega 26 atribuída ao caminhão 8 do centro São Paulo
+Entrega 21 atribuída ao caminhão 8 do centro São Paulo
+Entrega 28 atribuída ao caminhão 8 do centro São Paulo
+Entrega 17 atribuída ao caminhão 8 do centro São Paulo
+Entrega 19 atribuída ao caminhão 8 do centro São Paulo
+Entrega 15 atribuída ao caminhão 8 do centro São Paulo
+Entrega 18 atribuída ao caminhão 8 do centro São Paulo
+Entrega 20 atribuída ao caminhão 8 do centro São Paulo
+Entrega 27 atribuída ao caminhão 8 do centro São Paulo
+Entrega 50 atribuída ao caminhão 8 do centro São Paulo
+Entrega 22 atribuída ao caminhão 9 do centro Florianópolis
+Entrega 8 atribuída ao caminhão 9 do centro Florianópolis
+Entrega 3 excede capacidade do caminhão 9
+Entrega 25 excede capacidade do caminhão 9
+Entrega 24 excede capacidade do caminhão 9
+Entrega 49 excede capacidade do caminhão 9
+Entrega 23 excede capacidade do caminhão 9
+Entrega 3 atribuída ao caminhão 10 do centro Florianópolis
+Entrega 25 atribuída ao caminhão 10 do centro Florianópolis
+Entrega 24 atribuída ao caminhão 10 do centro Florianópolis
+Entrega 49 atribuída ao caminhão 10 do centro Florianópolis
+Entrega 23 atribuída ao caminhão 10 do centro Florianópolis
+
+/////////////// Rotas dos caminhões ////////////////////
+
+=== DETALHAMENTO DA ROTA PARA O CAMINHÃO 1 DO CENTRO Belém ===
+Velocidade média: 80.0 km/h, Limite de horas por dia: 8.0 horas
+Partida: Belém (-1.45, -48.48)
+
+Trajeto para entrega 12 (Itacoatiara):
+  Belém → Itacoatiara (927.20 km)
+
+Trajeto para entrega 14 (PresidenteFigueiredo):
+  Itacoatiara → PresidenteFigueiredo (583.02 km)
+
+Retorno para o centro Belém:
+  PresidenteFigueiredo → Belém (1488.42 km)
+
+Distância total percorrida: 2998.64 km
+Tempo estimado: 37.48 horas
+Dias necessários: 4.69 dias (considerando 8.0 horas/dia)
+Total de entregas realizadas: 2
+======================================================================
+
+=== DETALHAMENTO DA ROTA PARA O CAMINHÃO 2 DO CENTRO Belém ===
+Velocidade média: 60.0 km/h, Limite de horas por dia: 12.0 horas
+Partida: Belém (-1.45, -48.48)
+
+Trajeto para entrega 43 (Belém):
+  Belém → Belém (2.22 km)
+
+Trajeto para entrega 44 (SãoLuís):
+  Belém → SãoLuís (481.93 km)
+
+Trajeto para entrega 45 (Teresina):
+  SãoLuís → Teresina (329.73 km)
+
+Trajeto para entrega 1 (Manaus):
+  Teresina → Manaus (1922.53 km)
+
+Trajeto para entrega 11 (NovoAirão):
+  Manaus → NovoAirão (246.57 km)
+
+Trajeto para entrega 13 (Manacapuru):
+  NovoAirão → Manacapuru (262.14 km)
+
+Trajeto para entrega 47 (PortoVelho):
+  Manacapuru → PortoVelho (364.07 km)
+
+Retorno para o centro Belém:
+  PortoVelho → Belém (1890.28 km)
+
+Distância total percorrida: 5499.48 km
+Tempo estimado: 91.66 horas
+Dias necessários: 7.64 dias (considerando 12.0 horas/dia)
+Total de entregas realizadas: 7
+======================================================================
+
+=== DETALHAMENTO DA ROTA PARA O CAMINHÃO 3 DO CENTRO Recife ===
+Velocidade média: 80.0 km/h, Limite de horas por dia: 8.0 horas
+Partida: Recife (-8.05, -34.88)
+
+Trajeto para entrega 36 (Olinda):
+  Recife → Olinda (2.20 km)
+
+Trajeto para entrega 42 (FeiradeSantana):
+  Olinda → FeiradeSantana (676.04 km)
+
+Trajeto para entrega 30 (LaurodeFreitas):
+  FeiradeSantana → LaurodeFreitas (3.34 km)
+
+Retorno para o centro Recife:
+  LaurodeFreitas → Recife (680.02 km)
+
+Distância total percorrida: 1361.60 km
+Tempo estimado: 17.02 horas
+Dias necessários: 2.13 dias (considerando 8.0 horas/dia)
+Total de entregas realizadas: 3
+======================================================================
+
+=== DETALHAMENTO DA ROTA PARA O CAMINHÃO 4 DO CENTRO Recife ===
+Velocidade média: 60.0 km/h, Limite de horas por dia: 12.0 horas
+Partida: Recife (-8.05, -34.88)
+
+Trajeto para entrega 35 (Recife):
+  Recife → Recife (103.41 km)
+
+Trajeto para entrega 37 (Natal):
+  Recife → Natal (152.32 km)
+
+Trajeto para entrega 9 (Fortaleza):
+  Natal → Fortaleza (432.42 km)
+
+Trajeto para entrega 33 (Caucaia):
+  Fortaleza → Caucaia (8.95 km)
+
+Trajeto para entrega 34 (Pacatuba):
+  Caucaia → Pacatuba (59.84 km)
+
+Trajeto para entrega 46 (JuazeirodoNorte):
+  Pacatuba → JuazeirodoNorte (341.52 km)
+
+Trajeto para entrega 31 (MarechalDeodoro):
+  JuazeirodoNorte → MarechalDeodoro (478.16 km)
+
+Trajeto para entrega 7 (Maceió):
+  MarechalDeodoro → Maceió (1.56 km)
+
+Trajeto para entrega 32 (Aracaju):
+  Maceió → Aracaju (202.79 km)
+
+Trajeto para entrega 29 (Candeias):
+  Aracaju → Candeias (253.26 km)
+
+Trajeto para entrega 4 (Salvador):
+  Candeias → Salvador (93.22 km)
+
+Trajeto para entrega 10 (JoãoPessoa):
+  Salvador → JoãoPessoa (460.60 km)
+
+Retorno para o centro Recife:
+  JoãoPessoa → Recife (786.15 km)
+
+Distância total percorrida: 3374.19 km
+Tempo estimado: 56.24 horas
+Dias necessários: 4.69 dias (considerando 12.0 horas/dia)
+Total de entregas realizadas: 13
+======================================================================
+
+=== DETALHAMENTO DA ROTA PARA O CAMINHÃO 5 DO CENTRO Brasília ===
+Velocidade média: 80.0 km/h, Limite de horas por dia: 8.0 horas
+Partida: Brasília (-15.78, -47.93)
+
+Trajeto para entrega 38 (AparecidadeGoiânia):
+  Brasília → AparecidadeGoiânia (157.96 km)
+
+Trajeto para entrega 6 (Goiânia):
+  AparecidadeGoiânia → Goiânia (28.91 km)
+
+Retorno para o centro Brasília:
+  Goiânia → Brasília (172.84 km)
+
+Distância total percorrida: 359.71 km
+Tempo estimado: 4.50 horas
+Dias necessários: 0.56 dias (considerando 8.0 horas/dia)
+Total de entregas realizadas: 2
+======================================================================
+
+=== DETALHAMENTO DA ROTA PARA O CAMINHÃO 6 DO CENTRO Brasília ===
+Velocidade média: 60.0 km/h, Limite de horas por dia: 12.0 horas
+Partida: Brasília (-15.78, -47.93)
+
+Trajeto para entrega 41 (Uberlândia):
+  Brasília → Uberlândia (351.12 km)
+
+Trajeto para entrega 40 (CampoGrande):
+  Uberlândia → CampoGrande (687.96 km)
+
+Trajeto para entrega 39 (Cuiabá):
+  CampoGrande → Cuiabá (559.58 km)
+
+Retorno para o centro Brasília:
+  Cuiabá → Brasília (874.79 km)
+
+Distância total percorrida: 2473.45 km
+Tempo estimado: 41.22 horas
+Dias necessários: 3.44 dias (considerando 12.0 horas/dia)
+Total de entregas realizadas: 3
+======================================================================
+
+=== DETALHAMENTO DA ROTA PARA O CAMINHÃO 7 DO CENTRO São Paulo ===
+Velocidade média: 80.0 km/h, Limite de horas por dia: 8.0 horas
+Partida: São Paulo (-23.55, -46.63)
+
+Trajeto para entrega 16 (JuizdeFora):
+  São Paulo → JuizdeFora (391.00 km)
+
+Trajeto para entrega 2 (BeloHorizonte):
+  JuizdeFora → BeloHorizonte (213.59 km)
+
+Retorno para o centro São Paulo:
+  BeloHorizonte → São Paulo (489.98 km)
+
+Distância total percorrida: 1094.57 km
+Tempo estimado: 13.68 horas
+Dias necessários: 1.71 dias (considerando 8.0 horas/dia)
+Total de entregas realizadas: 2
+======================================================================
+
+=== DETALHAMENTO DA ROTA PARA O CAMINHÃO 8 DO CENTRO São Paulo ===
+Velocidade média: 60.0 km/h, Limite de horas por dia: 12.0 horas
+Partida: São Paulo (-23.55, -46.63)
+
+Trajeto para entrega 26 (SãoPaulo):
+
+Trajeto para entrega 27 (Santos):
+  São Paulo → Santos (54.87 km)
+
+Trajeto para entrega 20 (AngradosReis):
+  Santos → AngradosReis (165.24 km)
+
+Trajeto para entrega 19 (Petrópolis):
+  AngradosReis → Petrópolis (144.96 km)
+
+Trajeto para entrega 21 (VoltaRedonda):
+  Petrópolis → VoltaRedonda (69.57 km)
+
+Trajeto para entrega 18 (Teresópolis):
+  VoltaRedonda → Teresópolis (41.51 km)
+
+Trajeto para entrega 5 (RiodeJaneiro):
+  Teresópolis → RiodeJaneiro (57.18 km)
+
+Trajeto para entrega 17 (OuroPreto):
+  RiodeJaneiro → OuroPreto (282.41 km)
+
+Trajeto para entrega 15 (Ipatinga):
+  OuroPreto → Ipatinga (95.23 km)
+
+Trajeto para entrega 28 (Campinas):
+  Ipatinga → Campinas (583.07 km)
+
+Trajeto para entrega 50 (Dourados):
+  Campinas → Dourados (711.58 km)
+
+Retorno para o centro São Paulo:
+  Dourados → São Paulo (849.79 km)
+
+Distância total percorrida: 3055.39 km
+Tempo estimado: 50.92 horas
+Dias necessários: 4.24 dias (considerando 12.0 horas/dia)
+Total de entregas realizadas: 11
+======================================================================
+
+=== DETALHAMENTO DA ROTA PARA O CAMINHÃO 9 DO CENTRO Florianópolis ===
+Velocidade média: 80.0 km/h, Limite de horas por dia: 8.0 horas
+Partida: Florianópolis (-27.59, -48.55)
+
+Trajeto para entrega 8 (Curitiba):
+  Florianópolis → Curitiba (251.70 km)
+
+Trajeto para entrega 22 (Canoas):
+  Curitiba → Canoas (507.92 km)
+
+Retorno para o centro Florianópolis:
+  Canoas → Florianópolis (342.63 km)
+
+Distância total percorrida: 1102.25 km
+Tempo estimado: 13.78 horas
+Dias necessários: 1.72 dias (considerando 8.0 horas/dia)
+Total de entregas realizadas: 2
+======================================================================
+
+=== DETALHAMENTO DA ROTA PARA O CAMINHÃO 10 DO CENTRO Florianópolis ===
+Velocidade média: 60.0 km/h, Limite de horas por dia: 12.0 horas
+Partida: Florianópolis (-27.59, -48.55)
+
+Trajeto para entrega 49 (Florianópolis):
+
+Trajeto para entrega 24 (CaxiasdoSul):
+  Florianópolis → CaxiasdoSul (311.54 km)
+
+Trajeto para entrega 3 (PortoAlegre):
+  CaxiasdoSul → PortoAlegre (95.75 km)
+
+Trajeto para entrega 23 (RioGrande):
+  PortoAlegre → RioGrande (236.68 km)
+
+Trajeto para entrega 25 (PontaGrossa):
+  RioGrande → PontaGrossa (794.10 km)
+
+Retorno para o centro Florianópolis:
+  PontaGrossa → Florianópolis (320.95 km)
+
+Distância total percorrida: 1759.01 km
+Tempo estimado: 29.32 horas
+Dias necessários: 2.44 dias (considerando 12.0 horas/dia)
+Total de entregas realizadas: 5
+======================================================================

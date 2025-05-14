@@ -1,0 +1,1135 @@
+/////////// Atribuição de entregas aos centros ////////////
+
+Entrega 1 para Manaus atribuída ao centro Belém
+Entrega 2 para Recife atribuída ao centro Recife
+Entrega 3 para Rio de Janeiro atribuída ao centro São Paulo    
+Entrega 4 para São Paulo atribuída ao centro São Paulo
+Entrega 5 para Belo Horizonte atribuída ao centro São Paulo    
+Entrega 6 para Brasília atribuída ao centro Brasília
+Entrega 7 para Porto Alegre atribuída ao centro Florianópolis  
+Entrega 8 para Salvador atribuída ao centro Recife
+Entrega 9 para Curitiba atribuída ao centro Florianópolis      
+Entrega 10 para Goiânia atribuída ao centro Brasília
+Entrega 11 para São Luís atribuída ao centro Belém
+Entrega 12 para Rio Branco atribuída ao centro Brasília        
+Entrega 13 para Florianópolis atribuída ao centro Florianópolis
+Entrega 14 para João Pessoa atribuída ao centro Recife
+Entrega 15 para Fortaleza atribuída ao centro Recife
+Entrega 16 para Maceió atribuída ao centro Recife
+Entrega 17 para Porto Velho atribuída ao centro Belém
+Entrega 18 para Teresina atribuída ao centro Belém
+Entrega 19 para Campo Grande atribuída ao centro Brasília
+Entrega 20 para Cuiabá atribuída ao centro Brasília
+Entrega 21 para Belém atribuída ao centro Belém
+Entrega 22 para Aracaju atribuída ao centro Recife
+Entrega 23 para Campinas atribuída ao centro São Paulo
+Entrega 24 para Feira de Santana atribuída ao centro Recife
+Entrega 25 para Osasco atribuída ao centro São Paulo
+Entrega 26 para São José do Rio Preto atribuída ao centro São Paulo
+Entrega 27 para Uberaba atribuída ao centro Brasília
+Entrega 28 para Franca atribuída ao centro São Paulo
+Entrega 29 para Campina Grande atribuída ao centro Recife
+Entrega 30 para Bauru atribuída ao centro São Paulo
+Entrega 31 para Ribeirão Preto atribuída ao centro São Paulo
+Entrega 32 para São José dos Campos atribuída ao centro São Paulo
+Entrega 33 para Anápolis atribuída ao centro Brasília
+Entrega 34 para Petrolina atribuída ao centro Recife
+Entrega 35 para Cascavel atribuída ao centro Florianópolis
+Entrega 36 para Sorocaba atribuída ao centro São Paulo
+Entrega 37 para Fernando de Noronha atribuída ao centro Recife
+Entrega 38 para Vitória atribuída ao centro São Paulo
+Entrega 39 para Petrópolis atribuída ao centro São Paulo
+Entrega 40 para Taubaté atribuída ao centro São Paulo
+Entrega 41 para Picos atribuída ao centro Belém
+Entrega 42 para Várzea Grande atribuída ao centro Brasília
+Entrega 43 para Olinda atribuída ao centro Recife
+Entrega 44 para Águas Lindas de Goiás atribuída ao centro Brasília
+Entrega 45 para Limeira atribuída ao centro São Paulo
+Entrega 46 para Montes Claros atribuída ao centro Brasília
+Entrega 47 para São José de Ribamar atribuída ao centro Belém
+Entrega 48 para Caruaru atribuída ao centro Recife
+Entrega 49 para Lauro de Freitas atribuída ao centro Recife
+Entrega 50 para Santarém atribuída ao centro Belém
+Entrega 51 para Juiz de Fora atribuída ao centro São Paulo
+Entrega 52 para Marília atribuída ao centro São Paulo
+Entrega 53 para Santo André atribuída ao centro São Paulo
+Entrega 54 para São Bernardo do Campo atribuída ao centro São Paulo
+Entrega 55 para Taboão da Serra atribuída ao centro São Paulo
+Entrega 56 para Iranduba atribuída ao centro Belém
+Entrega 57 para Floriano atribuída ao centro Belém
+Entrega 58 para Pouso Alegre atribuída ao centro São Paulo
+Entrega 59 para Jaú atribuída ao centro São Paulo
+Entrega 60 para Vitória da Conquista atribuída ao centro Brasília
+Entrega 61 para Balsas atribuída ao centro Belém
+Entrega 62 para Imperatriz atribuída ao centro Belém
+Entrega 63 para Araraquara atribuída ao centro São Paulo
+Entrega 64 para Jataí atribuída ao centro Brasília
+Entrega 65 para Macapá atribuída ao centro Belém
+Entrega 66 para Nossa Senhora do Socorro atribuída ao centro Recife
+Entrega 67 para Penápolis atribuída ao centro São Paulo
+Entrega 68 para Marabá atribuída ao centro Belém
+Entrega 69 para Dourados atribuída ao centro São Paulo
+Entrega 70 para Serrinha atribuída ao centro Recife
+Entrega 71 para Uberlândia atribuída ao centro Brasília
+Entrega 72 para Varginha atribuída ao centro São Paulo
+Entrega 73 para Manacapuru atribuída ao centro Belém
+Entrega 74 para Umuarama atribuída ao centro São Paulo
+Entrega 75 para Janaúba atribuída ao centro Brasília
+Entrega 76 para Russas atribuída ao centro Recife
+Entrega 77 para Guaraí atribuída ao centro Belém
+Entrega 78 para Chapada dos Guimarães atribuída ao centro Brasília
+Entrega 79 para Bujari atribuída ao centro Brasília
+Entrega 80 para Paragominas atribuída ao centro Belém
+Entrega 81 para Natal atribuída ao centro Recife
+Entrega 82 para Ponta Grossa atribuída ao centro Florianópolis
+Entrega 83 para Rondon do Pará atribuída ao centro Belém
+Entrega 84 para Cataguases atribuída ao centro São Paulo
+Entrega 85 para Carapicuíba atribuída ao centro São Paulo
+Entrega 86 para Foz do Iguaçu atribuída ao centro Florianópolis
+Entrega 87 para Caxias atribuída ao centro Belém
+Entrega 88 para Caldas Novas atribuída ao centro Brasília
+Entrega 89 para Sete Lagoas atribuída ao centro São Paulo
+Entrega 90 para Ilhéus atribuída ao centro Brasília
+Entrega 91 para Cabo Frio atribuída ao centro São Paulo
+Entrega 92 para Itumbiara atribuída ao centro Brasília
+Entrega 93 para Presidente Prudente atribuída ao centro São Paulo
+Entrega 94 para Cruzeiro do Sul atribuída ao centro Belém
+Entrega 95 para Bento Gonçalves atribuída ao centro Florianópolis
+Entrega 96 para Piraju atribuída ao centro São Paulo
+Entrega 97 para Juruti atribuída ao centro Belém
+Entrega 98 para Formosa atribuída ao centro Brasília
+Entrega 99 para Caraguatatuba atribuída ao centro São Paulo
+Entrega 100 para Poconé atribuída ao centro Brasília
+Entrega 101 para Ipatinga atribuída ao centro São Paulo
+Entrega 102 para Poços de Caldas atribuída ao centro São Paulo
+Entrega 103 para Resende atribuída ao centro São Paulo
+Entrega 104 para Tucumã atribuída ao centro Belém
+Entrega 105 para Porto Seguro atribuída ao centro Brasília
+Entrega 106 para Guarabira atribuída ao centro Recife
+Entrega 107 para Juazeiro do Norte atribuída ao centro Recife
+Entrega 108 para Quixadá atribuída ao centro Recife
+Entrega 109 para Araras atribuída ao centro São Paulo
+Entrega 110 para Viseu atribuída ao centro Belém
+Entrega 111 para Aquidauana atribuída ao centro Brasília
+Entrega 112 para Bom Jesus da Lapa atribuída ao centro Brasília
+Entrega 113 para Naviraí atribuída ao centro São Paulo
+Entrega 114 para Fernando de Noronha atribuída ao centro Recife
+Entrega 115 para Limoeiro do Norte atribuída ao centro Recife
+Entrega 116 para Três Marias atribuída ao centro Brasília
+Entrega 117 para Descalvado atribuída ao centro São Paulo
+Entrega 118 para Mossoró atribuída ao centro Recife
+Entrega 119 para Santa Maria atribuída ao centro Florianópolis
+Entrega 120 para Cacoal atribuída ao centro Brasília
+Entrega 121 para Assis Brasil atribuída ao centro Brasília
+Entrega 122 para Parnaíba atribuída ao centro Belém
+Entrega 123 para Passo Fundo atribuída ao centro Florianópolis
+Entrega 124 para Governador Valadares atribuída ao centro São Paulo
+Entrega 125 para Chapecó atribuída ao centro Florianópolis
+Entrega 126 para São Mateus atribuída ao centro São Paulo
+Entrega 127 para Tomé-Açu atribuída ao centro Belém
+Entrega 128 para Januária atribuída ao centro Brasília
+Entrega 129 para Pederneiras atribuída ao centro São Paulo
+Entrega 130 para Paulo Afonso atribuída ao centro Recife
+Entrega 131 para Ariquemes atribuída ao centro Brasília
+Entrega 132 para Patos de Minas atribuída ao centro Brasília
+Entrega 133 para Itaituba atribuída ao centro Belém
+Entrega 134 para Criciúma atribuída ao centro Florianópolis
+Entrega 135 para Rio Verde atribuída ao centro Brasília
+Entrega 136 para Umuarama atribuída ao centro Florianópolis
+Entrega 137 para Americana atribuída ao centro São Paulo
+Entrega 138 para Volta Redonda atribuída ao centro São Paulo
+Entrega 139 para Itabuna atribuída ao centro Recife
+Entrega 140 para Itacaré atribuída ao centro Brasília
+Entrega 141 para Xanxerê atribuída ao centro Florianópolis
+Entrega 142 para São Raimundo Nonato atribuída ao centro Recife
+Entrega 143 para Joinville atribuída ao centro Florianópolis
+Entrega 144 para Itajubá atribuída ao centro São Paulo
+Entrega 145 para Piranhas atribuída ao centro Recife
+Entrega 146 para Montes Claros atribuída ao centro Brasília
+Entrega 147 para Cajazeiras atribuída ao centro Recife
+Entrega 148 para Três Lagoas atribuída ao centro São Paulo
+Entrega 149 para Goioerê atribuída ao centro Florianópolis
+Entrega 150 para São Francisco do Sul atribuída ao centro Florianópolis
+Entrega 151 para Luziânia atribuída ao centro Brasília
+Entrega 152 para Bocaiúva atribuída ao centro Brasília
+Entrega 153 para Diadema atribuída ao centro São Paulo
+Entrega 154 para Alfenas atribuída ao centro São Paulo
+Entrega 155 para Fernandópolis atribuída ao centro São Paulo
+Entrega 156 para Crato atribuída ao centro Recife
+Entrega 157 para Uruguaiana atribuída ao centro Florianópolis
+Entrega 158 para Colatina atribuída ao centro São Paulo
+Entrega 159 para Grajaú atribuída ao centro Belém
+Entrega 160 para Guarapuava atribuída ao centro Florianópolis
+Entrega 161 para Paranaíba atribuída ao centro Brasília
+Entrega 162 para Altamira atribuída ao centro Belém
+Entrega 163 para Passos atribuída ao centro São Paulo
+Entrega 164 para Caratinga atribuída ao centro São Paulo
+Entrega 165 para Juína atribuída ao centro Brasília
+Entrega 166 para Serra Talhada atribuída ao centro Recife
+Entrega 167 para Presidente Prudente atribuída ao centro São Paulo
+Entrega 168 para Salto atribuída ao centro São Paulo
+Entrega 169 para Teresina atribuída ao centro Belém
+Entrega 170 para Paranaguá atribuída ao centro Florianópolis
+Entrega 171 para Assis atribuída ao centro São Paulo
+
+////////////////// Atribuição das entregas para os caminhões //////////////////////
+
+Entrega 11 atribuída ao caminhão 1 do centro Belém
+Entrega 47 atribuída ao caminhão 1 do centro Belém
+Entrega 62 atribuída ao caminhão 1 do centro Belém
+Entrega 77 atribuída ao caminhão 1 do centro Belém
+Entrega 87 atribuída ao caminhão 1 do centro Belém
+Entrega 122 atribuída ao caminhão 1 do centro Belém
+Entrega 159 excede capacidade do caminhão 1
+Entrega 18 excede capacidade do caminhão 1
+Entrega 41 excede capacidade do caminhão 1
+Entrega 57 excede capacidade do caminhão 1
+Entrega 61 excede capacidade do caminhão 1
+Entrega 169 excede capacidade do caminhão 1
+Entrega 21 excede capacidade do caminhão 1
+Entrega 50 excede capacidade do caminhão 1
+Entrega 68 excede capacidade do caminhão 1
+Entrega 80 excede capacidade do caminhão 1
+Entrega 83 excede capacidade do caminhão 1
+Entrega 97 excede capacidade do caminhão 1
+Entrega 104 excede capacidade do caminhão 1
+Entrega 110 excede capacidade do caminhão 1
+Entrega 127 excede capacidade do caminhão 1
+Entrega 133 excede capacidade do caminhão 1
+Entrega 162 excede capacidade do caminhão 1
+Entrega 1 excede capacidade do caminhão 1
+Entrega 56 excede capacidade do caminhão 1
+Entrega 65 excede capacidade do caminhão 1
+Entrega 73 excede capacidade do caminhão 1
+Entrega 17 excede capacidade do caminhão 1
+Entrega 94 excede capacidade do caminhão 1
+Entrega 159 atribuída ao caminhão 2 do centro Belém
+Entrega 18 atribuída ao caminhão 2 do centro Belém
+Entrega 41 atribuída ao caminhão 2 do centro Belém
+Entrega 57 atribuída ao caminhão 2 do centro Belém
+Entrega 61 atribuída ao caminhão 2 do centro Belém
+Entrega 169 atribuída ao caminhão 2 do centro Belém
+Entrega 21 atribuída ao caminhão 2 do centro Belém
+Entrega 50 atribuída ao caminhão 2 do centro Belém
+Entrega 68 atribuída ao caminhão 2 do centro Belém
+Entrega 80 atribuída ao caminhão 2 do centro Belém
+Entrega 83 atribuída ao caminhão 2 do centro Belém
+Entrega 97 atribuída ao caminhão 2 do centro Belém
+Entrega 104 atribuída ao caminhão 2 do centro Belém
+Entrega 110 atribuída ao caminhão 2 do centro Belém
+Entrega 127 atribuída ao caminhão 2 do centro Belém
+Entrega 133 atribuída ao caminhão 2 do centro Belém
+Entrega 162 atribuída ao caminhão 2 do centro Belém
+Entrega 1 atribuída ao caminhão 2 do centro Belém
+Entrega 56 atribuída ao caminhão 2 do centro Belém
+Entrega 65 atribuída ao caminhão 2 do centro Belém
+Entrega 73 atribuída ao caminhão 2 do centro Belém
+Entrega 17 atribuída ao caminhão 2 do centro Belém
+Entrega 94 atribuída ao caminhão 2 do centro Belém
+Entrega 2 atribuída ao caminhão 3 do centro Recife
+Entrega 43 atribuída ao caminhão 3 do centro Recife
+Entrega 8 atribuída ao caminhão 3 do centro Recife
+Entrega 24 atribuída ao caminhão 3 do centro Recife
+Entrega 48 atribuída ao caminhão 3 do centro Recife
+Entrega 49 excede capacidade do caminhão 3
+Entrega 70 excede capacidade do caminhão 3
+Entrega 139 excede capacidade do caminhão 3
+Entrega 14 excede capacidade do caminhão 3
+Entrega 34 excede capacidade do caminhão 3
+Entrega 81 excede capacidade do caminhão 3
+Entrega 106 excede capacidade do caminhão 3
+Entrega 118 excede capacidade do caminhão 3
+Entrega 130 excede capacidade do caminhão 3
+Entrega 166 excede capacidade do caminhão 3
+Entrega 16 excede capacidade do caminhão 3
+Entrega 29 excede capacidade do caminhão 3
+Entrega 145 excede capacidade do caminhão 3
+Entrega 147 excede capacidade do caminhão 3
+Entrega 15 excede capacidade do caminhão 3
+Entrega 22 excede capacidade do caminhão 3
+Entrega 66 excede capacidade do caminhão 3
+Entrega 76 excede capacidade do caminhão 3
+Entrega 107 excede capacidade do caminhão 3
+Entrega 108 excede capacidade do caminhão 3
+Entrega 115 excede capacidade do caminhão 3
+Entrega 156 excede capacidade do caminhão 3
+Entrega 142 excede capacidade do caminhão 3
+Entrega 37 excede capacidade do caminhão 3
+Entrega 114 excede capacidade do caminhão 3
+Entrega 49 atribuída ao caminhão 4 do centro Recife
+Entrega 70 atribuída ao caminhão 4 do centro Recife
+Entrega 139 atribuída ao caminhão 4 do centro Recife
+Entrega 14 atribuída ao caminhão 4 do centro Recife
+Entrega 34 atribuída ao caminhão 4 do centro Recife
+Entrega 81 atribuída ao caminhão 4 do centro Recife
+Entrega 106 atribuída ao caminhão 4 do centro Recife
+Entrega 118 atribuída ao caminhão 4 do centro Recife
+Entrega 130 atribuída ao caminhão 4 do centro Recife
+Entrega 166 atribuída ao caminhão 4 do centro Recife
+Entrega 16 atribuída ao caminhão 4 do centro Recife
+Entrega 29 atribuída ao caminhão 4 do centro Recife
+Entrega 145 atribuída ao caminhão 4 do centro Recife
+Entrega 147 atribuída ao caminhão 4 do centro Recife
+Entrega 15 atribuída ao caminhão 4 do centro Recife
+Entrega 22 atribuída ao caminhão 4 do centro Recife
+Entrega 66 atribuída ao caminhão 4 do centro Recife
+Entrega 76 atribuída ao caminhão 4 do centro Recife
+Entrega 107 atribuída ao caminhão 4 do centro Recife
+Entrega 108 atribuída ao caminhão 4 do centro Recife
+Entrega 115 atribuída ao caminhão 4 do centro Recife
+Entrega 156 atribuída ao caminhão 4 do centro Recife
+Entrega 142 atribuída ao caminhão 4 do centro Recife
+Entrega 37 atribuída ao caminhão 4 do centro Recife
+Entrega 114 atribuída ao caminhão 4 do centro Recife
+Entrega 27 atribuída ao caminhão 5 do centro Brasília
+Entrega 71 atribuída ao caminhão 5 do centro Brasília
+Entrega 116 atribuída ao caminhão 5 do centro Brasília
+Entrega 132 atribuída ao caminhão 5 do centro Brasília
+Entrega 10 atribuída ao caminhão 5 do centro Brasília
+Entrega 46 excede capacidade do caminhão 5
+Entrega 75 excede capacidade do caminhão 5
+Entrega 92 excede capacidade do caminhão 5
+Entrega 128 excede capacidade do caminhão 5
+Entrega 146 excede capacidade do caminhão 5
+Entrega 152 excede capacidade do caminhão 5
+Entrega 161 excede capacidade do caminhão 5
+Entrega 6 excede capacidade do caminhão 5
+Entrega 33 excede capacidade do caminhão 5
+Entrega 44 excede capacidade do caminhão 5
+Entrega 88 excede capacidade do caminhão 5
+Entrega 98 excede capacidade do caminhão 5
+Entrega 135 excede capacidade do caminhão 5
+Entrega 151 excede capacidade do caminhão 5
+Entrega 64 excede capacidade do caminhão 5
+Entrega 60 excede capacidade do caminhão 5
+Entrega 90 excede capacidade do caminhão 5
+Entrega 105 excede capacidade do caminhão 5
+Entrega 112 excede capacidade do caminhão 5
+Entrega 140 excede capacidade do caminhão 5
+Entrega 19 excede capacidade do caminhão 5
+Entrega 111 excede capacidade do caminhão 5
+Entrega 20 excede capacidade do caminhão 5
+Entrega 42 excede capacidade do caminhão 5
+Entrega 78 excede capacidade do caminhão 5
+Entrega 100 excede capacidade do caminhão 5
+Entrega 165 excede capacidade do caminhão 5
+Entrega 120 excede capacidade do caminhão 5
+Entrega 131 excede capacidade do caminhão 5
+Entrega 12 excede capacidade do caminhão 5
+Entrega 79 atribuída ao caminhão 5 do centro Brasília
+Entrega 121 excede capacidade do caminhão 5
+Entrega 46 atribuída ao caminhão 6 do centro Brasília
+Entrega 75 atribuída ao caminhão 6 do centro Brasília
+Entrega 92 atribuída ao caminhão 6 do centro Brasília
+Entrega 128 atribuída ao caminhão 6 do centro Brasília
+Entrega 146 atribuída ao caminhão 6 do centro Brasília
+Entrega 152 atribuída ao caminhão 6 do centro Brasília
+Entrega 161 atribuída ao caminhão 6 do centro Brasília
+Entrega 6 atribuída ao caminhão 6 do centro Brasília
+Entrega 33 atribuída ao caminhão 6 do centro Brasília
+Entrega 44 atribuída ao caminhão 6 do centro Brasília
+Entrega 88 atribuída ao caminhão 6 do centro Brasília
+Entrega 98 atribuída ao caminhão 6 do centro Brasília
+Entrega 135 atribuída ao caminhão 6 do centro Brasília
+Entrega 151 atribuída ao caminhão 6 do centro Brasília
+Entrega 64 atribuída ao caminhão 6 do centro Brasília
+Entrega 60 atribuída ao caminhão 6 do centro Brasília
+Entrega 90 atribuída ao caminhão 6 do centro Brasília
+Entrega 105 atribuída ao caminhão 6 do centro Brasília
+Entrega 112 atribuída ao caminhão 6 do centro Brasília
+Entrega 140 atribuída ao caminhão 6 do centro Brasília
+Entrega 19 atribuída ao caminhão 6 do centro Brasília
+Entrega 111 atribuída ao caminhão 6 do centro Brasília
+Entrega 20 atribuída ao caminhão 6 do centro Brasília
+Entrega 42 atribuída ao caminhão 6 do centro Brasília
+Entrega 78 atribuída ao caminhão 6 do centro Brasília
+Entrega 100 atribuída ao caminhão 6 do centro Brasília
+Entrega 165 atribuída ao caminhão 6 do centro Brasília
+Entrega 120 atribuída ao caminhão 6 do centro Brasília
+Entrega 131 atribuída ao caminhão 6 do centro Brasília
+Entrega 12 atribuída ao caminhão 6 do centro Brasília
+Entrega 121 atribuída ao caminhão 6 do centro Brasília
+Entrega 4 atribuída ao caminhão 7 do centro São Paulo
+Entrega 25 atribuída ao caminhão 7 do centro São Paulo
+Entrega 53 atribuída ao caminhão 7 do centro São Paulo
+Entrega 54 excede capacidade do caminhão 7
+Entrega 55 atribuída ao caminhão 7 do centro São Paulo
+Entrega 85 excede capacidade do caminhão 7
+Entrega 153 excede capacidade do caminhão 7
+Entrega 23 excede capacidade do caminhão 7
+Entrega 30 excede capacidade do caminhão 7
+Entrega 32 excede capacidade do caminhão 7
+Entrega 36 excede capacidade do caminhão 7
+Entrega 137 excede capacidade do caminhão 7
+Entrega 168 excede capacidade do caminhão 7
+Entrega 3 excede capacidade do caminhão 7
+Entrega 26 excede capacidade do caminhão 7
+Entrega 31 excede capacidade do caminhão 7
+Entrega 40 excede capacidade do caminhão 7
+Entrega 45 excede capacidade do caminhão 7
+Entrega 52 excede capacidade do caminhão 7
+Entrega 59 excede capacidade do caminhão 7
+Entrega 63 excede capacidade do caminhão 7
+Entrega 67 excede capacidade do caminhão 7
+Entrega 96 excede capacidade do caminhão 7
+Entrega 99 excede capacidade do caminhão 7
+Entrega 109 excede capacidade do caminhão 7
+Entrega 117 excede capacidade do caminhão 7
+Entrega 129 excede capacidade do caminhão 7
+Entrega 155 excede capacidade do caminhão 7
+Entrega 171 excede capacidade do caminhão 7
+Entrega 39 excede capacidade do caminhão 7
+Entrega 51 excede capacidade do caminhão 7
+Entrega 58 excede capacidade do caminhão 7
+Entrega 72 excede capacidade do caminhão 7
+Entrega 84 excede capacidade do caminhão 7
+Entrega 91 excede capacidade do caminhão 7
+Entrega 102 excede capacidade do caminhão 7
+Entrega 103 excede capacidade do caminhão 7
+Entrega 138 excede capacidade do caminhão 7
+Entrega 144 excede capacidade do caminhão 7
+Entrega 154 excede capacidade do caminhão 7
+Entrega 163 excede capacidade do caminhão 7
+Entrega 5 excede capacidade do caminhão 7
+Entrega 28 excede capacidade do caminhão 7
+Entrega 89 excede capacidade do caminhão 7
+Entrega 93 excede capacidade do caminhão 7
+Entrega 101 excede capacidade do caminhão 7
+Entrega 124 excede capacidade do caminhão 7
+Entrega 164 excede capacidade do caminhão 7
+Entrega 167 excede capacidade do caminhão 7
+Entrega 148 excede capacidade do caminhão 7
+Entrega 38 excede capacidade do caminhão 7
+Entrega 74 excede capacidade do caminhão 7
+Entrega 126 excede capacidade do caminhão 7
+Entrega 158 excede capacidade do caminhão 7
+Entrega 69 excede capacidade do caminhão 7
+Entrega 113 excede capacidade do caminhão 7
+Entrega 54 atribuída ao caminhão 8 do centro São Paulo
+Entrega 85 atribuída ao caminhão 8 do centro São Paulo
+Entrega 153 atribuída ao caminhão 8 do centro São Paulo
+Entrega 23 atribuída ao caminhão 8 do centro São Paulo
+Entrega 30 atribuída ao caminhão 8 do centro São Paulo
+Entrega 32 atribuída ao caminhão 8 do centro São Paulo
+Entrega 36 atribuída ao caminhão 8 do centro São Paulo
+Entrega 137 atribuída ao caminhão 8 do centro São Paulo
+Entrega 168 atribuída ao caminhão 8 do centro São Paulo
+Entrega 3 atribuída ao caminhão 8 do centro São Paulo
+Entrega 26 atribuída ao caminhão 8 do centro São Paulo
+Entrega 31 atribuída ao caminhão 8 do centro São Paulo
+Entrega 40 atribuída ao caminhão 8 do centro São Paulo
+Entrega 45 atribuída ao caminhão 8 do centro São Paulo
+Entrega 52 atribuída ao caminhão 8 do centro São Paulo
+Entrega 59 atribuída ao caminhão 8 do centro São Paulo
+Entrega 63 atribuída ao caminhão 8 do centro São Paulo
+Entrega 67 atribuída ao caminhão 8 do centro São Paulo
+Entrega 96 atribuída ao caminhão 8 do centro São Paulo
+Entrega 99 atribuída ao caminhão 8 do centro São Paulo
+Entrega 109 atribuída ao caminhão 8 do centro São Paulo
+Entrega 117 atribuída ao caminhão 8 do centro São Paulo
+Entrega 129 atribuída ao caminhão 8 do centro São Paulo
+Entrega 155 atribuída ao caminhão 8 do centro São Paulo
+Entrega 171 atribuída ao caminhão 8 do centro São Paulo
+Entrega 39 atribuída ao caminhão 8 do centro São Paulo
+Entrega 51 atribuída ao caminhão 8 do centro São Paulo
+Entrega 58 atribuída ao caminhão 8 do centro São Paulo
+Entrega 72 atribuída ao caminhão 8 do centro São Paulo
+Entrega 84 atribuída ao caminhão 8 do centro São Paulo
+Entrega 91 atribuída ao caminhão 8 do centro São Paulo
+Entrega 102 atribuída ao caminhão 8 do centro São Paulo
+Entrega 103 atribuída ao caminhão 8 do centro São Paulo
+Entrega 138 atribuída ao caminhão 8 do centro São Paulo
+Entrega 144 atribuída ao caminhão 8 do centro São Paulo
+Entrega 154 atribuída ao caminhão 8 do centro São Paulo
+Entrega 163 atribuída ao caminhão 8 do centro São Paulo
+Entrega 5 atribuída ao caminhão 8 do centro São Paulo
+Entrega 28 atribuída ao caminhão 8 do centro São Paulo
+Entrega 89 atribuída ao caminhão 8 do centro São Paulo
+Entrega 93 atribuída ao caminhão 8 do centro São Paulo
+Entrega 101 atribuída ao caminhão 8 do centro São Paulo
+Entrega 124 atribuída ao caminhão 8 do centro São Paulo
+Entrega 164 atribuída ao caminhão 8 do centro São Paulo
+Entrega 167 atribuída ao caminhão 8 do centro São Paulo
+Entrega 148 atribuída ao caminhão 8 do centro São Paulo
+Entrega 38 atribuída ao caminhão 8 do centro São Paulo
+Entrega 74 atribuída ao caminhão 8 do centro São Paulo
+Entrega 126 atribuída ao caminhão 8 do centro São Paulo
+Entrega 158 atribuída ao caminhão 8 do centro São Paulo
+Entrega 69 atribuída ao caminhão 8 do centro São Paulo
+Entrega 113 atribuída ao caminhão 8 do centro São Paulo
+Entrega 9 atribuída ao caminhão 9 do centro Florianópolis
+Entrega 82 atribuída ao caminhão 9 do centro Florianópolis
+Entrega 170 atribuída ao caminhão 9 do centro Florianópolis
+Entrega 160 atribuída ao caminhão 9 do centro Florianópolis
+Entrega 13 excede capacidade do caminhão 9
+Entrega 136 atribuída ao caminhão 9 do centro Florianópolis
+Entrega 143 excede capacidade do caminhão 9
+Entrega 149 excede capacidade do caminhão 9
+Entrega 150 excede capacidade do caminhão 9
+Entrega 35 excede capacidade do caminhão 9
+Entrega 86 excede capacidade do caminhão 9
+Entrega 125 excede capacidade do caminhão 9
+Entrega 134 excede capacidade do caminhão 9
+Entrega 141 excede capacidade do caminhão 9
+Entrega 7 excede capacidade do caminhão 9
+Entrega 95 excede capacidade do caminhão 9
+Entrega 119 excede capacidade do caminhão 9
+Entrega 123 excede capacidade do caminhão 9
+Entrega 157 excede capacidade do caminhão 9
+Entrega 13 atribuída ao caminhão 10 do centro Florianópolis
+Entrega 143 atribuída ao caminhão 10 do centro Florianópolis
+Entrega 149 atribuída ao caminhão 10 do centro Florianópolis
+Entrega 150 atribuída ao caminhão 10 do centro Florianópolis
+Entrega 35 atribuída ao caminhão 10 do centro Florianópolis
+Entrega 86 atribuída ao caminhão 10 do centro Florianópolis
+Entrega 125 atribuída ao caminhão 10 do centro Florianópolis
+Entrega 134 atribuída ao caminhão 10 do centro Florianópolis
+Entrega 141 atribuída ao caminhão 10 do centro Florianópolis
+Entrega 7 atribuída ao caminhão 10 do centro Florianópolis
+Entrega 95 atribuída ao caminhão 10 do centro Florianópolis
+Entrega 119 atribuída ao caminhão 10 do centro Florianópolis
+Entrega 123 atribuída ao caminhão 10 do centro Florianópolis
+Entrega 157 atribuída ao caminhão 10 do centro Florianópolis
+
+/////////////// Rotas dos caminhões ////////////////////
+
+=== DETALHAMENTO DA ROTA PARA O CAMINHÃO 1 DO CENTRO Belém ===
+Velocidade média: 80.0 km/h, Limite de horas por dia: 8.0 horas
+Partida: Belém (-1.45, -48.48)
+
+Trajeto para entrega 62 (Imperatriz):
+  Belém → Imperatriz (467.05 km)
+
+Trajeto para entrega 77 (Guaraí):
+  Imperatriz → Guaraí (192.62 km)
+
+Trajeto para entrega 87 (Caxias):
+  Guaraí → Caxias (580.71 km)
+
+Trajeto para entrega 122 (Parnaíba):
+  Caxias → Parnaíba (254.31 km)
+
+Trajeto para entrega 47 (São José de Ribamar):
+  Parnaíba → São José de Ribamar (160.42 km)
+
+Trajeto para entrega 11 (São Luís):
+  São José de Ribamar → São Luís (10.00 km)
+
+Retorno para o centro Belém:
+  São Luís → Belém (479.78 km)
+
+Distância total percorrida: 2144.89 km
+Tempo estimado: 26.81 horas
+Dias necessários: 3.35 dias (considerando 8.0 horas/dia)
+Total de entregas realizadas: 6
+======================================================================
+
+=== DETALHAMENTO DA ROTA PARA O CAMINHÃO 2 DO CENTRO Belém ===
+Velocidade média: 60.0 km/h, Limite de horas por dia: 24.0 horas
+Partida: Belém (-1.45, -48.48)
+
+Trajeto para entrega 21 (Belém):
+  Belém → Belém (1.57 km)
+
+Trajeto para entrega 83 (Rondon do Pará):
+  Belém → Rondon do Pará (161.99 km)
+
+Trajeto para entrega 80 (Paragominas):
+  Rondon do Pará → Paragominas (1.57 km)
+
+Trajeto para entrega 127 (Tomé-Açu):
+  Paragominas → Tomé-Açu (58.04 km)
+
+Trajeto para entrega 110 (Viseu):
+  Tomé-Açu → Viseu (232.61 km)
+
+Trajeto para entrega 50 (Santarém):
+  Viseu → Santarém (208.95 km)
+
+Trajeto para entrega 159 (Grajaú):
+  Santarém → Grajaú (268.43 km)
+
+Trajeto para entrega 18 (Teresina):
+  Grajaú → Teresina (322.87 km)
+
+Trajeto para entrega 169 (Teresina):
+  Teresina → Teresina (2.48 km)
+
+Trajeto para entrega 41 (Picos):
+  Teresina → Picos (141.95 km)
+
+Trajeto para entrega 57 (Floriano):
+  Picos → Floriano (308.53 km)
+
+Trajeto para entrega 61 (Balsas):
+  Floriano → Balsas (342.96 km)
+
+Trajeto para entrega 104 (Tucumã):
+  Balsas → Tucumã (553.08 km)
+
+Trajeto para entrega 68 (Marabá):
+  Tucumã → Marabá (364.64 km)
+
+Trajeto para entrega 162 (Altamira):
+  Marabá → Altamira (288.37 km)
+
+Trajeto para entrega 65 (Macapá):
+  Altamira → Macapá (371.05 km)
+
+Trajeto para entrega 97 (Juruti):
+  Macapá → Juruti (565.77 km)
+
+Trajeto para entrega 133 (Itaituba):
+  Juruti → Itaituba (277.25 km)
+
+Trajeto para entrega 56 (Iranduba):
+  Itaituba → Iranduba (457.98 km)
+
+Trajeto para entrega 1 (Manaus):
+  Iranduba → Manaus (8.01 km)
+
+Trajeto para entrega 73 (Manacapuru):
+  Manaus → Manacapuru (70.59 km)
+
+Trajeto para entrega 17 (Porto Velho):
+  Manacapuru → Porto Velho (706.19 km)
+
+Trajeto para entrega 94 (Cruzeiro do Sul):
+  Porto Velho → Cruzeiro do Sul (974.12 km)
+
+Retorno para o centro Belém:
+  Cruzeiro do Sul → Belém (2765.35 km)
+
+Distância total percorrida: 9454.34 km
+Tempo estimado: 157.57 horas
+Dias necessários: 6.57 dias (considerando 24.0 horas/dia)
+Total de entregas realizadas: 23
+======================================================================
+
+=== DETALHAMENTO DA ROTA PARA O CAMINHÃO 3 DO CENTRO Recife ===
+Velocidade média: 80.0 km/h, Limite de horas por dia: 8.0 horas
+Partida: Recife (-8.05, -34.88)
+
+Trajeto para entrega 2 (Recife):
+
+Trajeto para entrega 43 (Olinda):
+  Recife → Olinda (7.71 km)
+
+Trajeto para entrega 48 (Caruaru):
+  Olinda → Caruaru (21.87 km)
+
+Trajeto para entrega 24 (Feira de Santana):
+  Caruaru → Feira de Santana (650.63 km)
+
+Trajeto para entrega 8 (Salvador):
+  Feira de Santana → Salvador (92.83 km)
+
+Retorno para o centro Recife:
+  Salvador → Recife (675.79 km)
+
+Distância total percorrida: 1448.82 km
+Tempo estimado: 18.11 horas
+Dias necessários: 2.26 dias (considerando 8.0 horas/dia)
+Total de entregas realizadas: 5
+======================================================================
+
+=== DETALHAMENTO DA ROTA PARA O CAMINHÃO 4 DO CENTRO Recife ===
+Velocidade média: 60.0 km/h, Limite de horas por dia: 24.0 horas
+Partida: Recife (-8.05, -34.88)
+
+Trajeto para entrega 14 (João Pessoa):
+  Recife → João Pessoa (103.41 km)
+
+Trajeto para entrega 106 (Guarabira):
+  João Pessoa → Guarabira (83.51 km)
+
+Trajeto para entrega 29 (Campina Grande):
+  Guarabira → Campina Grande (35.43 km)
+
+Trajeto para entrega 118 (Mossoró):
+  Campina Grande → Mossoró (157.48 km)
+
+Trajeto para entrega 147 (Cajazeiras):
+  Mossoró → Cajazeiras (170.89 km)
+
+Trajeto para entrega 107 (Juazeiro do Norte):
+  Cajazeiras → Juazeiro do Norte (88.42 km)
+
+Trajeto para entrega 156 (Crato):
+  Juazeiro do Norte → Crato (10.17 km)
+
+Trajeto para entrega 166 (Serra Talhada):
+  Crato → Serra Talhada (147.16 km)
+
+Trajeto para entrega 145 (Piranhas):
+  Serra Talhada → Piranhas (159.25 km)
+
+Trajeto para entrega 130 (Paulo Afonso):
+  Piranhas → Paulo Afonso (146.13 km)
+
+Trajeto para entrega 70 (Serrinha):
+  Paulo Afonso → Serrinha (42.08 km)
+
+Trajeto para entrega 34 (Petrolina):
+  Serrinha → Petrolina (171.13 km)
+
+Trajeto para entrega 142 (São Raimundo Nonato):
+  Petrolina → São Raimundo Nonato (177.66 km)
+
+Trajeto para entrega 115 (Limoeiro do Norte):
+  São Raimundo Nonato → Limoeiro do Norte (571.53 km)
+
+Trajeto para entrega 108 (Quixadá):
+  Limoeiro do Norte → Quixadá (69.58 km)
+
+Trajeto para entrega 15 (Fortaleza):
+  Quixadá → Fortaleza (80.09 km)
+
+Trajeto para entrega 76 (Russas):
+  Fortaleza → Russas (155.58 km)
+
+Trajeto para entrega 81 (Natal):
+  Russas → Natal (358.57 km)
+
+Trajeto para entrega 37 (Fernando de Noronha):
+  Natal → Fernando de Noronha (379.50 km)
+
+Trajeto para entrega 114 (Fernando de Noronha):
+  Fernando de Noronha → Fernando de Noronha (1.11 km)
+
+Trajeto para entrega 16 (Maceió):
+  Fernando de Noronha → Maceió (744.67 km)
+
+Trajeto para entrega 22 (Aracaju):
+  Maceió → Aracaju (202.76 km)
+
+Trajeto para entrega 66 (Nossa Senhora do Socorro):
+  Aracaju → Nossa Senhora do Socorro (20.34 km)
+
+Trajeto para entrega 49 (Lauro de Freitas):
+  Nossa Senhora do Socorro → Lauro de Freitas (259.40 km)
+
+Trajeto para entrega 139 (Itabuna):
+  Lauro de Freitas → Itabuna (209.63 km)
+
+Retorno para o centro Recife:
+  Itabuna → Recife (883.19 km)
+
+Distância total percorrida: 5428.68 km
+Tempo estimado: 90.48 horas
+Dias necessários: 3.77 dias (considerando 24.0 horas/dia)
+Total de entregas realizadas: 25
+======================================================================
+
+=== DETALHAMENTO DA ROTA PARA O CAMINHÃO 5 DO CENTRO Brasília ===
+Velocidade média: 80.0 km/h, Limite de horas por dia: 8.0 horas
+Partida: Brasília (-15.78, -47.93)
+
+Trajeto para entrega 10 (Goiânia):
+  Brasília → Goiânia (173.72 km)
+
+Trajeto para entrega 71 (Uberlândia):
+  Goiânia → Uberlândia (269.82 km)
+
+Trajeto para entrega 27 (Uberaba):
+  Uberlândia → Uberaba (99.98 km)
+
+Trajeto para entrega 132 (Patos de Minas):
+  Uberaba → Patos de Minas (179.88 km)
+
+Trajeto para entrega 116 (Três Marias):
+  Patos de Minas → Três Marias (159.21 km)
+
+Trajeto para entrega 79 (Bujari):
+  Três Marias → Bujari (2582.13 km)
+
+Retorno para o centro Brasília:
+  Bujari → Brasília (2230.22 km)
+
+Distância total percorrida: 5694.96 km
+Tempo estimado: 71.19 horas
+Dias necessários: 8.90 dias (considerando 8.0 horas/dia)
+Total de entregas realizadas: 6
+======================================================================
+
+=== DETALHAMENTO DA ROTA PARA O CAMINHÃO 6 DO CENTRO Brasília ===
+Velocidade média: 60.0 km/h, Limite de horas por dia: 24.0 horas
+Partida: Brasília (-15.78, -47.93)
+
+Trajeto para entrega 6 (Brasília):
+
+Trajeto para entrega 44 (Águas Lindas de Goiás):
+  Brasília → Águas Lindas de Goiás (13.23 km)
+
+Trajeto para entrega 151 (Luziânia):
+  Águas Lindas de Goiás → Luziânia (38.76 km)
+
+Trajeto para entrega 98 (Formosa):
+  Luziânia → Formosa (49.13 km)
+
+Trajeto para entrega 33 (Anápolis):
+  Formosa → Anápolis (156.52 km)
+
+Trajeto para entrega 88 (Caldas Novas):
+  Anápolis → Caldas Novas (176.38 km)
+
+Trajeto para entrega 92 (Itumbiara):
+  Caldas Novas → Itumbiara (137.50 km)
+
+Trajeto para entrega 135 (Rio Verde):
+  Itumbiara → Rio Verde (195.04 km)
+
+Trajeto para entrega 161 (Paranaíba):
+  Rio Verde → Paranaíba (223.76 km)
+
+Trajeto para entrega 64 (Jataí):
+  Paranaíba → Jataí (314.04 km)
+
+Trajeto para entrega 78 (Chapada dos Guimarães):
+  Jataí → Chapada dos Guimarães (339.35 km)
+
+Trajeto para entrega 20 (Cuiabá):
+  Chapada dos Guimarães → Cuiabá (43.01 km)
+
+Trajeto para entrega 42 (Várzea Grande):
+  Cuiabá → Várzea Grande (4.57 km)
+
+Trajeto para entrega 100 (Poconé):
+  Várzea Grande → Poconé (200.77 km)
+
+Trajeto para entrega 111 (Aquidauana):
+  Poconé → Aquidauana (369.68 km)
+
+Trajeto para entrega 19 (Campo Grande):
+  Aquidauana → Campo Grande (122.06 km)
+
+Trajeto para entrega 152 (Bocaiúva):
+  Campo Grande → Bocaiúva (1077.96 km)
+
+Trajeto para entrega 128 (Januária):
+  Bocaiúva → Januária (108.19 km)
+
+Trajeto para entrega 46 (Montes Claros):
+  Januária → Montes Claros (127.28 km)
+
+Trajeto para entrega 75 (Janaúba):
+  Montes Claros → Janaúba (165.49 km)
+
+Trajeto para entrega 146 (Montes Claros):
+  Janaúba → Montes Claros (3.34 km)
+
+Trajeto para entrega 60 (Vitória da Conquista):
+  Montes Claros → Vitória da Conquista (385.43 km)
+
+Trajeto para entrega 140 (Itacaré):
+  Vitória da Conquista → Itacaré (143.87 km)
+
+Trajeto para entrega 90 (Ilhéus):
+  Itacaré → Ilhéus (26.91 km)
+
+Trajeto para entrega 105 (Porto Seguro):
+  Ilhéus → Porto Seguro (142.07 km)
+
+Trajeto para entrega 112 (Bom Jesus da Lapa):
+  Porto Seguro → Bom Jesus da Lapa (588.14 km)
+
+Trajeto para entrega 165 (Juína):
+  Bom Jesus da Lapa → Juína (1765.21 km)
+
+Trajeto para entrega 120 (Cacoal):
+  Juína → Cacoal (290.93 km)
+
+Trajeto para entrega 131 (Ariquemes):
+  Cacoal → Ariquemes (373.58 km)
+
+Trajeto para entrega 12 (Rio Branco):
+  Ariquemes → Rio Branco (287.23 km)
+
+Trajeto para entrega 121 (Assis Brasil):
+  Rio Branco → Assis Brasil (457.03 km)
+
+Retorno para o centro Brasília:
+  Assis Brasil → Brasília (2347.75 km)
+
+Distância total percorrida: 10674.22 km
+Tempo estimado: 177.90 horas
+Dias necessários: 7.41 dias (considerando 24.0 horas/dia)
+Total de entregas realizadas: 31
+======================================================================
+
+=== DETALHAMENTO DA ROTA PARA O CAMINHÃO 7 DO CENTRO São Paulo ===
+Velocidade média: 80.0 km/h, Limite de horas por dia: 8.0 horas
+Partida: São Paulo (-23.55, -46.63)
+
+Trajeto para entrega 4 (São Paulo):
+  São Paulo → São Paulo (1.02 km)
+
+Trajeto para entrega 55 (Taboão da Serra):
+  São Paulo → Taboão da Serra (13.21 km)
+
+Trajeto para entrega 53 (Santo André):
+  Taboão da Serra → Santo André (16.89 km)
+
+Trajeto para entrega 25 (Osasco):
+  Santo André → Osasco (38.00 km)
+
+Retorno para o centro São Paulo:
+  Osasco → São Paulo (24.10 km)
+
+Distância total percorrida: 93.22 km
+Tempo estimado: 1.17 horas
+Dias necessários: 0.15 dias (considerando 8.0 horas/dia)
+Total de entregas realizadas: 4
+======================================================================
+
+=== DETALHAMENTO DA ROTA PARA O CAMINHÃO 8 DO CENTRO São Paulo ===
+Velocidade média: 60.0 km/h, Limite de horas por dia: 24.0 horas
+Partida: São Paulo (-23.55, -46.63)
+
+Trajeto para entrega 153 (Diadema):
+  São Paulo → Diadema (5.56 km)
+
+Trajeto para entrega 54 (São Bernardo do Campo):
+  Diadema → São Bernardo do Campo (16.19 km)
+
+Trajeto para entrega 85 (Carapicuíba):
+  São Bernardo do Campo → Carapicuíba (33.88 km)
+
+Trajeto para entrega 168 (Salto):
+  Carapicuíba → Salto (57.63 km)
+
+Trajeto para entrega 36 (Sorocaba):
+  Salto → Sorocaba (12.19 km)
+
+Trajeto para entrega 137 (Americana):
+  Sorocaba → Americana (65.17 km)
+
+Trajeto para entrega 23 (Campinas):
+  Americana → Campinas (14.29 km)
+
+Trajeto para entrega 45 (Limeira):
+  Campinas → Limeira (64.72 km)
+
+Trajeto para entrega 109 (Araras):
+  Limeira → Araras (33.28 km)
+
+Trajeto para entrega 117 (Descalvado):
+  Araras → Descalvado (74.84 km)
+
+Trajeto para entrega 102 (Poços de Caldas):
+  Descalvado → Poços de Caldas (48.37 km)
+
+Trajeto para entrega 154 (Alfenas):
+  Poços de Caldas → Alfenas (65.86 km)
+
+Trajeto para entrega 72 (Varginha):
+  Alfenas → Varginha (54.98 km)
+
+Trajeto para entrega 144 (Itajubá):
+  Varginha → Itajubá (43.15 km)
+
+Trajeto para entrega 58 (Pouso Alegre):
+  Itajubá → Pouso Alegre (56.21 km)
+
+Trajeto para entrega 32 (São José dos Campos):
+  Pouso Alegre → São José dos Campos (46.98 km)
+
+Trajeto para entrega 138 (Volta Redonda):
+  São José dos Campos → Volta Redonda (38.44 km)
+
+Trajeto para entrega 103 (Resende):
+  Volta Redonda → Resende (92.77 km)
+
+Trajeto para entrega 3 (Rio de Janeiro):
+  Resende → Rio de Janeiro (102.47 km)
+
+Trajeto para entrega 39 (Petrópolis):
+  Rio de Janeiro → Petrópolis (61.04 km)
+
+Trajeto para entrega 51 (Juiz de Fora):
+  Petrópolis → Juiz de Fora (78.32 km)
+
+Trajeto para entrega 84 (Cataguases):
+  Juiz de Fora → Cataguases (99.55 km)
+
+Trajeto para entrega 101 (Ipatinga):
+  Cataguases → Ipatinga (184.43 km)
+
+Trajeto para entrega 124 (Governador Valadares):
+  Ipatinga → Governador Valadares (87.90 km)
+
+Trajeto para entrega 164 (Caratinga):
+  Governador Valadares → Caratinga (34.43 km)
+
+Trajeto para entrega 158 (Colatina):
+  Caratinga → Colatina (122.57 km)
+
+Trajeto para entrega 38 (Vitória):
+  Colatina → Vitória (96.45 km)
+
+Trajeto para entrega 126 (São Mateus):
+  Vitória → São Mateus (184.61 km)
+
+Trajeto para entrega 5 (Belo Horizonte):
+  São Mateus → Belo Horizonte (448.08 km)
+
+Trajeto para entrega 89 (Sete Lagoas):
+  Belo Horizonte → Sete Lagoas (61.52 km)
+
+Trajeto para entrega 163 (Passos):
+  Sete Lagoas → Passos (238.43 km)
+
+Trajeto para entrega 28 (Franca):
+  Passos → Franca (115.31 km)
+
+Trajeto para entrega 31 (Ribeirão Preto):
+  Franca → Ribeirão Preto (81.99 km)
+
+Trajeto para entrega 63 (Araraquara):
+  Ribeirão Preto → Araraquara (77.89 km)
+
+Trajeto para entrega 129 (Pederneiras):
+  Araraquara → Pederneiras (66.20 km)
+
+Trajeto para entrega 52 (Marília):
+  Pederneiras → Marília (51.74 km)
+
+Trajeto para entrega 30 (Bauru):
+  Marília → Bauru (1.51 km)
+
+Trajeto para entrega 59 (Jaú):
+  Bauru → Jaú (91.33 km)
+
+Trajeto para entrega 96 (Piraju):
+  Jaú → Piraju (127.68 km)
+
+Trajeto para entrega 171 (Assis):
+  Piraju → Assis (98.31 km)
+
+Trajeto para entrega 167 (Presidente Prudente):
+  Assis → Presidente Prudente (108.73 km)
+
+Trajeto para entrega 93 (Presidente Prudente):
+  Presidente Prudente → Presidente Prudente (6.36 km)
+
+Trajeto para entrega 148 (Três Lagoas):
+  Presidente Prudente → Três Lagoas (144.61 km)
+
+Trajeto para entrega 155 (Fernandópolis):
+  Três Lagoas → Fernandópolis (158.42 km)
+
+Trajeto para entrega 26 (São José do Rio Preto):
+  Fernandópolis → São José do Rio Preto (86.69 km)
+
+Trajeto para entrega 67 (Penápolis):
+  São José do Rio Preto → Penápolis (47.09 km)
+
+Trajeto para entrega 74 (Umuarama):
+  Penápolis → Umuarama (426.54 km)
+
+Trajeto para entrega 113 (Naviraí):
+  Umuarama → Naviraí (121.94 km)
+
+Trajeto para entrega 69 (Dourados):
+  Naviraí → Dourados (103.11 km)
+
+Trajeto para entrega 40 (Taubaté):
+  Dourados → Taubaté (919.59 km)
+
+Trajeto para entrega 99 (Caraguatatuba):
+  Taubaté → Caraguatatuba (70.93 km)
+
+Trajeto para entrega 91 (Cabo Frio):
+  Caraguatatuba → Cabo Frio (354.36 km)
+
+Retorno para o centro São Paulo:
+  Cabo Frio → São Paulo (474.48 km)
+
+Distância total percorrida: 6359.11 km
+Tempo estimado: 105.99 horas
+Dias necessários: 4.42 dias (considerando 24.0 horas/dia)
+Total de entregas realizadas: 52
+======================================================================
+
+=== DETALHAMENTO DA ROTA PARA O CAMINHÃO 9 DO CENTRO Florianópolis ===
+Velocidade média: 80.0 km/h, Limite de horas por dia: 8.0 horas
+Partida: Florianópolis (-27.59, -48.55)
+
+Trajeto para entrega 170 (Paranaguá):
+  Florianópolis → Paranaguá (235.16 km)
+
+Trajeto para entrega 9 (Curitiba):
+  Paranaguá → Curitiba (44.68 km)
+
+Trajeto para entrega 82 (Ponta Grossa):
+  Curitiba → Ponta Grossa (97.16 km)
+
+Trajeto para entrega 160 (Guarapuava):
+  Ponta Grossa → Guarapuava (166.53 km)
+
+Trajeto para entrega 136 (Umuarama):
+  Guarapuava → Umuarama (238.13 km)
+
+Retorno para o centro Florianópolis:
+  Umuarama → Florianópolis (683.96 km)
+
+Distância total percorrida: 1465.61 km
+Tempo estimado: 18.32 horas
+Dias necessários: 2.29 dias (considerando 8.0 horas/dia)
+Total de entregas realizadas: 5
+======================================================================
+
+=== DETALHAMENTO DA ROTA PARA O CAMINHÃO 10 DO CENTRO Florianópolis ===
+Velocidade média: 60.0 km/h, Limite de horas por dia: 24.0 horas
+Partida: Florianópolis (-27.59, -48.55)
+
+Trajeto para entrega 13 (Florianópolis):
+  Florianópolis → Florianópolis (1.11 km)
+
+Trajeto para entrega 143 (Joinville):
+  Florianópolis → Joinville (134.77 km)
+
+Trajeto para entrega 150 (São Francisco do Sul):
+  Joinville → São Francisco do Sul (30.42 km)
+
+Trajeto para entrega 134 (Criciúma):
+  São Francisco do Sul → Criciúma (269.76 km)
+
+Trajeto para entrega 95 (Bento Gonçalves):
+  Criciúma → Bento Gonçalves (184.07 km)
+
+Trajeto para entrega 7 (Porto Alegre):
+  Bento Gonçalves → Porto Alegre (96.86 km)
+
+Trajeto para entrega 123 (Passo Fundo):
+  Porto Alegre → Passo Fundo (227.74 km)
+
+Trajeto para entrega 125 (Chapecó):
+  Passo Fundo → Chapecó (130.63 km)
+
+Trajeto para entrega 141 (Xanxerê):
+  Chapecó → Xanxerê (32.77 km)
+
+Trajeto para entrega 35 (Cascavel):
+  Xanxerê → Cascavel (238.36 km)
+
+Trajeto para entrega 86 (Foz do Iguaçu):
+  Cascavel → Foz do Iguaçu (125.13 km)
+
+Trajeto para entrega 149 (Goioerê):
+  Foz do Iguaçu → Goioerê (248.53 km)
+
+Trajeto para entrega 119 (Santa Maria):
+  Goioerê → Santa Maria (633.76 km)
+
+Trajeto para entrega 157 (Uruguaiana):
+  Santa Maria → Uruguaiana (271.83 km)
+
+Retorno para o centro Florianópolis:
+  Uruguaiana → Florianópolis (801.73 km)
+
+Distância total percorrida: 3427.47 km
+Tempo estimado: 57.12 horas
+Dias necessários: 2.38 dias (considerando 24.0 horas/dia)
+Total de entregas realizadas: 14
+======================================================================
